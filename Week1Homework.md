@@ -18,16 +18,18 @@ Here are some methods provided by the OWASP Foundation on how to answer these qu
    **DFD**s (data flow diagrams) or brainstorming with stakeholders are useful in providing understanding of the particular ins and outs of a system.
    
 2. Identifying threats and risks can be done in numerous ways, but a popular one is a process developed by Microsoft employees called **STRIDE**, which stands for
-   * **S**poofing **-** Impersonating someone in order to gain access to a system
-   * **T**ampering **-** Unauthorised modification to data
-   * **R**epudiation **-** Denying responsibility for an action by removing evidence
-   * **I**nformation Disclosure **-** Unathorised extraction of confidential data
-   * **D**enial of Service **-** Loss of ability to use service due to excessive failed log-in attempts
-   * **E**levation of Privileges **-** Unauthorised promotion of user's role to gain more access in system via newly acquired privileges
+   * **S**poofing **-** Impersonating someone in order to gain access to a system.
+   * **T**ampering **-** Unauthorised modification to data.
+   * **R**epudiation **-** Denying responsibility for an action by removing evidence.
+   * **I**nformation Disclosure **-** Unathorised extraction of confidential data.
+   * **D**enial of Service **-** Loss of ability to use service due to excessive failed log-in attempts.
+   * **E**levation of Privileges **-** Unauthorised promotion of user's role to gain more access in system via newly acquired privileges.
 
-
-   
-5. .
+3. Now that threats have been identified, how they are dealt with is the next question. To do this, we can consult another acronym-based process: **META**
+   * **M**itigate **-** Actively take steps to reduce the likelihood of an identified threat.
+   * **E**liminate **-** Remove a feature which constitutes a high risk.
+   * **T**ransfer **-** Shift responsibility to another entity.
+   * **A**ccept **-** Do none of the above, as they are not valid. The risk/threat is accepted to be tolerable.
 6. .
 7. .
 8. .
