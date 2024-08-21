@@ -3,7 +3,7 @@
 
 ### X)
 
-Threat modelling is a process in which a system is analysed in order to determine its strengths & weaknesses commonly used in cybersecurity. It is a process recommended by the Threat Modelling Manifesto to be included in the initial design phase of a system in order for security to be built-in from the beginning, though continous repetion is advised to keep security up to date. But what is the security for?
+**Threat modelling** is a process in which a system is analysed in order to determine its strengths & weaknesses commonly used in cybersecurity. It is a process recommended by the Threat Modelling Manifesto to be included in the initial design phase of a system in order for security to be built-in from the beginning, though continous repetion is advised to keep security up to date. But what is the security for?
 
 **Values.** Specifically, things which an organisation has in their posession which have value.
 Effective threat modelling is governed by 3 principles:
@@ -45,6 +45,21 @@ Here are some methods provided by the OWASP Foundation on how to answer these qu
    * Has the threat model been formally documented?
    * Can the agreed upon mitigations be tested?
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For this assignment I listened to episode 29 of the Darknet Diaries.
+The topic of this episode is the Stuxnet computer worm thought to be deployed by the government of the United States of America (not officially confirmed) in collaboration with Israel against Iran in order to sabotage their nuclear development program. Kim Zetter, an investigative journalist who has written a book on the subject, makes a guest appearance in this episode.
+
+To summarise: during the episode it is alleged that either The CIA, Mossad or possible both managed to deploy the Stuxnet worm into the development facility of Iran's nuclear programme near a remote village called Natanz. The worm's purpose was to sabotage the programme by infecting control systems for centrifuges used for enriching uranium by executing highly sophisticated methods of damaging the equipment while it was running, all the while appearing as if the equipment was faulty, not deliberately sabotaged. However, due to earlier failures in smuggling the worm into the facility, changes were made to the version which finally made it into the facility that made it spread much faster and more efficiently than intended.
+
+While it laid dormant in machines where it did not detect the equipment it was meant to destroy, its rapid spreading around the world lead to it being discovered by a company called Semantec. Semantec would take their discovery to the press, eventually leading to Iranians being able to correllate the problems at their facility with those the worm was capable of, and were able to remove it and continue their project. Neither the USA or Israel have acknowledged their involvement with the worm.
+
+
+
+
+
+
+
 
 
 ### A)
@@ -57,11 +72,13 @@ Here are some methods provided by the OWASP Foundation on how to answer these qu
 
 ### Sources
 
-Karvinen, T. 2024. Information Security Course. URL: https://terokarvinen.com/information-security/ Accessed:
+Karvinen, T. 2024. Information Security Course. URL: https://terokarvinen.com/information-security/ Accessed: 21 August 2024
 
-Braiterman et al. 2020. Threat modelling manifesto. URL: https://www.threatmodelingmanifesto.org/ Accessed:
+Braiterman et al. 2020. Threat modelling manifesto. URL: https://www.threatmodelingmanifesto.org/ Accessed: 21 August 2024
 
-Shostack, A. 2022. Welcome to the Worlds Shortest Threat Modelling Course. 12 Online videos. URL: https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf Accessed: 
+Shostack, A. 2022. Welcome to the Worlds Shortest Threat Modelling Course. 12 Online videos. URL: https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf Accessed: 21 August 2024
 
-OWASP Cheat Sheet Series Team. 2021. Threat Modelling Cheat Sheet. URL: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html Accessed: 
+OWASP Cheat Sheet Series Team. 2021. Threat Modelling Cheat Sheet. URL: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html Accessed: 21 August 2024
+
+Rhysider, J. 2022. The Most Sophisticated Malware Ever Made (That We Know Of) Darknet Diaries Ep. 29: Stuxnet. URL: https://www.youtube.com/watch?v=9DCwyuH29SI Accessed: 20 August 2024
 
