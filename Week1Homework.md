@@ -15,15 +15,15 @@ In threat modelling, there are **4** key questions which, through the process of
 Here are some methods provided by the OWASP Foundation on how to answer these questions:
 
 1. To effectively conduct threat modelling, one must first understand the system they are working with. Visualising the system using methods such as
-   DFDs (data flow diagrams) or brainstorming with stakeholders are useful in providing understanding of the particular ins and outs of a system.
+   **DFD**s (data flow diagrams) or brainstorming with stakeholders are useful in providing understanding of the particular ins and outs of a system.
    
-3. Identifying threats and risks can be done in numerous ways, but a popular one is a process developed by Microsoft employees called STRIDE, which stands for
-   * **S**poofing **-** 
-   * **T**ampering **-** 
-   * **R**epudiation **-** 
-   * **I**nformation Disclosure **-** 
-   * **D**enial of Service **-** 
-   * **E**levation of Privileges **-** 
+2. Identifying threats and risks can be done in numerous ways, but a popular one is a process developed by Microsoft employees called **STRIDE**, which stands for
+   * **S**poofing **-** Impersonating someone in order to gain access to a system
+   * **T**ampering **-** Unauthorised modification to data
+   * **R**epudiation **-** Denying responsibility for an action by removing evidence
+   * **I**nformation Disclosure **-** Unathorised extraction of confidential data
+   * **D**enial of Service **-** Loss of ability to use service due to excessive failed log-in attempts
+   * **E**levation of Privileges **-** Unauthorised promotion of user's role to gain more access in system via newly acquired privileges
 
 
    
