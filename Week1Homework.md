@@ -3,8 +3,14 @@
 
 ### X)
 
-Threat modelling is a process in which a system is analysed in order to determine its strengths & weaknesses commonly used in cybersecurity. It is a process recommended to be included in the initial design phase of a system in order for security to be built-in from the beginning, though continous repetion is advised to 
-keep security up to date.
+Threat modelling is a process in which a system is analysed in order to determine its strengths & weaknesses commonly used in cybersecurity. It is a process recommended by the Threat Modelling Manifesto to be included in the initial design phase of a system in order for security to be built-in from the beginning, though continous repetion is advised to keep security up to date. But what is the security for?
+
+**Values.** Specifically, things which an organisation has in their posession which have value.
+Effective threat modelling is governed by 3 principles:
+
+  * Fundamentals are general truths that enable successful threat modelling.
+  * Patterns are commonly repeated, effective methods which contribute to the quality of the model and are encouraged.
+  * Anti-patterns, as their name implies, are simply the exact opposite of Patterns. They are detrimental to the quality of models and should be avoided.
 
 In threat modelling, there are **4** key questions which, through the process of being answered, provide a framework towards creating a secure system:
   1. What are we working on?
@@ -25,18 +31,20 @@ Here are some methods provided by the OWASP Foundation on how to answer these qu
    * **D**enial of Service **-** Loss of ability to use service due to excessive failed log-in attempts.
    * **E**levation of Privileges **-** Unauthorised promotion of user's role to gain more access in system via newly acquired privileges.
 
-3. Now that threats have been identified, how they are dealt with is the next question. To do this, we can consult another acronym-based process: **META**
+3. Now that threats have been identified, how they are dealt with is the next question. To do this, we can consult another acronym-based process provided by Adam 
+   Shostack: **META**
    * **M**itigate **-** Actively take steps to reduce the likelihood of an identified threat.
    * **E**liminate **-** Remove a feature which constitutes a high risk.
    * **T**ransfer **-** Shift responsibility to another entity.
    * **A**ccept **-** Do none of the above, as they are not valid. The risk/threat is accepted to be tolerable.
-6. .
-7. .
-8. .
-9. .
-10. .
-11. .
-12. 
+     
+4. At the end, its important to consider whether the solutions devised in the previous phases are enough. Here a few important questions to ask:
+   * Does the DFD accurately reflect the system?
+   * Have all the threats been identified?
+   * For each identified risk, has a response strategy been agreed upon?
+   * Has the threat model been formally documented?
+   * Can the agreed upon mitigations be tested?
+
 
 
 ### A)
