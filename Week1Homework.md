@@ -3,6 +3,38 @@
 
 ### X)
 
+Threat modelling is a process in which a system is analysed in order to determine its strengths & weaknesses commonly used in cybersecurity. It is a process recommended to be included in the initial design phase of a system in order for security to be built-in from the beginning, though continous repetion is advised to 
+keep security up to date.
+
+In threat modelling, there are **4** key questions which, through the process of being answered, provide a framework towards creating a secure system:
+  1. What are we working on?
+  2. What can go wrong?
+  3. What are we going to do about it?
+  4. Did we do a good enough job?
+
+Here are some methods provided by the OWASP Foundation on how to answer these questions:
+
+1. To effectively conduct threat modelling, one must first understand the system they are working with. Visualising the system using methods such as
+   DFDs (data flow diagrams) or brainstorming with stakeholders are useful in providing understanding of the particular ins and outs of a system.
+   
+3. Identifying threats and risks can be done in numerous ways, but a popular one is a process developed by Microsoft employees called STRIDE, which stands for
+   Spoofing **-** 
+   Tampering **-** 
+   Repudiation **-** 
+   Information Disclosure **-** 
+   Denial of Service **-** 
+   Elevation of Privileges **-** 
+
+
+   
+5. .
+6. .
+7. .
+8. .
+9. .
+10. .
+11. .
+12. 
 
 
 ### A)
