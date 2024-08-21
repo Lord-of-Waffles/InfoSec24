@@ -18,12 +18,12 @@ Here are some methods provided by the OWASP Foundation on how to answer these qu
    DFDs (data flow diagrams) or brainstorming with stakeholders are useful in providing understanding of the particular ins and outs of a system.
    
 3. Identifying threats and risks can be done in numerous ways, but a popular one is a process developed by Microsoft employees called STRIDE, which stands for
-   Spoofing **-** 
-   Tampering **-** 
-   Repudiation **-** 
-   Information Disclosure **-** 
-   Denial of Service **-** 
-   Elevation of Privileges **-** 
+   * Spoofing **-** 
+   * Tampering **-** 
+   * Repudiation **-** 
+   * Information Disclosure **-** 
+   * Denial of Service **-** 
+   * Elevation of Privileges **-** 
 
 
    
