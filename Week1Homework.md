@@ -3,11 +3,17 @@
 
 ### X)
 
+
+
 ### A)
+
+
 
 ### B)
 
-### References
+
+
+### Sources
 
 Karvinen, T. 2024. Information Security Course. URL: https://terokarvinen.com/information-security/ Accessed:
 
