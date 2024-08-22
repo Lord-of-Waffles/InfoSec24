@@ -75,6 +75,9 @@ Cyberscurity is a constant process that requires conistent maintenance and aware
 
 ### B)
 
+Company: Imaginary Solutions Inc.
+
+Imaginary Solutions provides customers with what they really want: a monthly subscription service where the customer is sent 10 toothpicks each month, for 15€/month.
 
 
 
