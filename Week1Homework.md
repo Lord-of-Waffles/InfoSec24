@@ -54,19 +54,28 @@ To summarise: during the episode it is alleged that either The CIA, Mossad or po
 
 While it laid dormant in machines where it did not detect the equipment it was meant to destroy, its rapid spreading around the world lead to it being discovered by a company called Semantec. Semantec would take their discovery to the press, eventually leading to Iranians being able to correllate the problems at their facility with those the worm was capable of, and were able to remove it and continue their project. Neither the USA or Israel have acknowledged their involvement with the worm.
 
-
-
-
-
-
-
+I found this episode to be fascinating and it got me hooked on the podcast. Stuxnet was a significant event as it marked the first (publicly) known attack on a foreign country using digital systems. In the context of threat modelling, it would be unfair to say the Iranians didn't account for this type of attack as it hadn't been done before, showcasing how threat modelling really is a constant process as attackers are intelligent human beings purposefully trying to break into systems. Towards the end of the episode the hosts bring up the point that the attack technically didn't constitute an act of war, and that depending on one's perspective such an attack either provoked further agression or hindered possible violence and save lives. I'll definitely be listening to more episodes.
 
 
 ### A)
 
+Proofpoint, an American cybersecurity company provides a list of good cybersecurity practices to ensure security:
+- Strong, unique passwords
+- MFA or multi-factor authentication
+- Keeping software and systems up to date
+- Backing up data
+- Using antivirus or antimalware software
+- Being cautious of phishing attacks
+- Securing wireless networks
+- Educating yourself and others on cybersecurity basics
+- Encrypting sensitive data
+- Using firewalls
 
+Cyberscurity is a constant process that requires conistent maintenance and awareness. By mainitaing good cyber hygiene, companies can assure their busienss runs uninterrupted.
 
 ### B)
+
+
 
 
 
@@ -81,4 +90,6 @@ Shostack, A. 2022. Welcome to the Worlds Shortest Threat Modelling Course. 12 On
 OWASP Cheat Sheet Series Team. 2021. Threat Modelling Cheat Sheet. URL: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html Accessed: 21 August 2024
 
 Rhysider, J. 2022. The Most Sophisticated Malware Ever Made (That We Know Of) Darknet Diaries Ep. 29: Stuxnet. URL: https://www.youtube.com/watch?v=9DCwyuH29SI Accessed: 20 August 2024
+
+Proofpoint. 2024. What is Cyber Hygiene? URL: https://www.proofpoint.com/us/threat-reference/cyber-hygiene Accessed: 22 August 2024
 
