@@ -80,12 +80,12 @@ Company: **Imaginary Solutions Inc.**
 Imaginary Solutions, a startup unicorn often called the "Spotify of dental hygiene", provides customers with what they never knew they needed, but can't live without:
 a monthly subscription service where the customer is sent 10 toothpicks each month, for only 14.99€/month.
 
-The company has an internal network which it uses for business purposes. Access is separated into roles, administrative being highest. Good security hygience training provided during onboarding.
+The company has an internal network which it uses for business purposes. Access is separated into roles, administrative being highest. Logging into systems requires multi-factor authentication. Good security hygience training provided to new employees during onboarding.
 
 #### Question 1: What are we working on?
 ![image](https://github.com/user-attachments/assets/135e2ac5-da23-4998-8d40-9a49db62282e)
 
-This is my DFD depicting how information related to the business is moving. Key assets include but are not limited to:
+This is my DFD depicting how information related to the business is moving. Key assets are:
 - Customer data
 - Company financial data
 - Employee data
@@ -104,33 +104,63 @@ customers' trust in the company's ability to keep their information safe will le
 
 To identify threats, I'll be using the STRIDE-process.
 
-First, **spoofing**. In order to access internal company computers to extract confidental data, unauthorised actors may attempt to impersonate an employee.
+1. First, **spoofing**. In order to access internal company computers to extract confidental data, unauthorised actors may attempt to impersonate an employee.
 One common way this may occur is emails or chat messages sent to unsuspecting employees from a compromised account where they may attempt a phishing attack.
 
 - Most people are famous with the Nigerian prince email scam, but may be much less alert when a friend's or family member's account sends a message containing a link, even with knowledge of good practices. High risk.
 
-**Tampering**. Disgruntled employees with administrator privileges could tamper with data leading to business operations being unable to be completed.
+2. **Tampering**. Disgruntled employees with administrator privileges could tamper with data leading to business operations being unable to be completed.
 
 - More of a rare possibility than an inevitability. Company network privileges separated by position at company. Low risk.
 
-If an attacker is able to infiltrate company computers, they may attempt **repudiation**, erasing logs recording their actions and thus removing evidence of their presence and actions.
+3. If an attacker is able to infiltrate company computers, they may attempt **repudiation**, erasing logs recording their actions and thus removing evidence of their presence and actions.
 
 - Due to the company's security standards, unauthorised access unlikely (but possible). Medium risk.
 
-Other than being able to gain access to a computer, an attacker may attempt an SQL injection to extract data from the database with queries, an example of **information disclosure**.
+4. Other than being able to gain access to a computer, an attacker may attempt an SQL injection to extract data from the database with queries, an example of **information disclosure**.
 
-Whilst the above examples showcase different scenarios of an attacker gaining access to internal systems, if an attacker simply wants to cause harm to a business without having to gain access to its internal network, they can **DDOS** the company's website (main customer touchpoint). This will render the company unable to take in new customers.
+- Due to in-built security in services introduced during development, low risk.
 
-Finally, **elevation of privileges**. If information transferred between services is not securely encrypted, an attacker could change contents in an attempt to give themselves administrator privileges in the company's internal network.
+5. Whilst the above examples showcase different scenarios of an attacker gaining access to internal systems, if an attacker simply wants to cause harm to a business without having to gain access to its internal network, they can **DDOS** the company's website (main customer touchpoint). This will render the company unable to take in new customers.
 
+- DDOS attacks are unfortunately quite common today, so as the company is known about, medium risk.
 
+6. Finally, **elevation of privileges**. If information transferred between services is not securely encrypted, an attacker could change contents in an attempt to give themselves administrator privileges in the company's internal network.
 
-
+- Due to data moving between entities whose security not entirely in company's control, medium risk.
 
 
 #### Question 3: What are we going to do about it?
 
+1. Spoofing will be actively mitigated. Whilst good security hygiene pratices are taught during a new employer's onboarding, regular reviews on said practices is good to raise of awareness of these types of attacks.
+
+2. Due to low threat level, threat will be accepted. Some level of mitigation already comes from not all users having admin privileges.
+
+3. Though medium risk, logs can not be eliminated as a component. Therefore, mitigation via mandating MFA to log in to network, reducing likelihood of unauthorised actors being able to access it.
+
+4. Whilst service was being developed, efforts were made to include security measures into the program from the very beginning. Problem has been mitigated.
+
+5. Due to potential losses incurred from extended DDOS attack, company has invested in efficient server architecture in order to mitigate potential losses.
+
+6. Company's own security standards ensure outgoing communications properly encrypted, though the risk that the bank's might be compromised has to be accepted, however unlikely it may be.
+
+MFA helps mitigate many concerns regarding spoofing, and employees will be encouraged not to access company network from other public networks in order to limit potential entry points.
+
 #### Question 4: Did we do a good enough job?
+
+Though threat modelling is a continous process, it's time to asses this one.
+
+- DFD reflects system, though from a very general perspective.
+  
+- I feel I've identified all threats I can with current understanding of cyber security.
+
+- Strategies are in place for threats identified.
+
+- Higher risks mitigated in order to reduce threat level.
+
+- Threat model documented (you're reading it!). Picture of DFD locally stored on my laptop in case this is not accessible.
+
+- Some mitigations can be tested: temporarily disable MFA, stress test for servers. In-built security cannot be disabled for test, neither can network roles. Whitehat hackers could be hired to test security if required.
 
 
 
