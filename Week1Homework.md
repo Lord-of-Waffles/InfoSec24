@@ -75,9 +75,12 @@ Cyberscurity is a constant process that requires conistent maintenance and aware
 
 ### B)
 
-Company: Imaginary Solutions Inc.
+Company: **Imaginary Solutions Inc.**
 
-Imaginary Solutions provides customers with what they really want: a monthly subscription service where the customer is sent 10 toothpicks each month, for 15€/month.
+Imaginary Solutions, a startup unicorn often called the "Spotify of dental hygiene", provides customers with what they never knew they needed, but can't live without:
+a monthly subscription service where the customer is sent 10 toothpicks each month, for only 14.99€/month.
+
+The company has an internal network which it uses for business purposes. Access is separated into roles, administrative being highest. Good security hygience training provided during onboarding.
 
 #### Question 1: What are we working on?
 ![image](https://github.com/user-attachments/assets/135e2ac5-da23-4998-8d40-9a49db62282e)
@@ -99,11 +102,33 @@ customers' trust in the company's ability to keep their information safe will le
 
 #### Question 2: What can go wrong?
 
+To identify threats, I'll be using the STRIDE-process.
+
+First, **spoofing**. In order to access internal company computers to extract confidental data, unauthorised actors may attempt to impersonate an employee.
+One common way this may occur is emails or chat messages sent to unsuspecting employees from a compromised account where they may attempt a phishing attack.
+
+- Most people are famous with the Nigerian prince email scam, but may be much less alert when a friend's or family member's account sends a message containing a link, even with knowledge of good practices. High risk.
+
+**Tampering**. Disgruntled employees with administrator privileges could tamper with data leading to business operations being unable to be completed.
+
+- More of a rare possibility than an inevitability. Company network privileges separated by position at company. Low risk.
+
+If an attacker is able to infiltrate company computers, they may attempt **repudiation**, erasing logs recording their actions and thus removing evidence of their presence and actions.
+
+- Due to the company's security standards, unauthorised access unlikely (but possible). Medium risk.
+
+Other than being able to gain access to a computer, an attacker may attempt an SQL injection to extract data from the database with queries, an example of **information disclosure**.
+
+Whilst the above examples showcase different scenarios of an attacker gaining access to internal systems, if an attacker simply wants to cause harm to a business without having to gain access to its internal network, they can **DDOS** the company's website (main customer touchpoint). This will render the company unable to take in new customers.
+
+Finally, **elevation of privileges**. If information transferred between services is not securely encrypted, an attacker could change contents in an attempt to give themselves administrator privileges in the company's internal network.
+
+
+
 
 
 
 #### Question 3: What are we going to do about it?
-
 
 #### Question 4: Did we do a good enough job?
 
@@ -120,7 +145,7 @@ Shostack, A. 2022. Welcome to the Worlds Shortest Threat Modelling Course. 12 On
 
 OWASP Cheat Sheet Series Team. 2021. Threat Modelling Cheat Sheet. URL: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html Accessed: 21 August 2024
 
-Rhysider, J. 2022. The Most Sophisticated Malware Ever Made (That We Know Of) Darknet Diaries Ep. 29: Stuxnet. URL: https://www.youtube.com/watch?v=9DCwyuH29SI Accessed: 20 August 2024
+Jack Rhysider. 2022. The Most Sophisticated Malware Ever Made (That We Know Of) Darknet Diaries Ep. 29: Stuxnet. URL: https://www.youtube.com/watch?v=9DCwyuH29SI Accessed: 20 August 2024
 
 Proofpoint. 2024. What is Cyber Hygiene? URL: https://www.proofpoint.com/us/threat-reference/cyber-hygiene Accessed: 22 August 2024
 
