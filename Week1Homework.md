@@ -79,6 +79,18 @@ Company: Imaginary Solutions Inc.
 
 Imaginary Solutions provides customers with what they really want: a monthly subscription service where the customer is sent 10 toothpicks each month, for 15€/month.
 
+Question 1: What are we working on?
+![image](https://github.com/user-attachments/assets/135e2ac5-da23-4998-8d40-9a49db62282e)
+
+
+Question 2: What can go wrong?
+
+
+Question 3: What are we going to do about it?
+
+
+Question 4: Did we do a good enough job?
+
 
 
 
