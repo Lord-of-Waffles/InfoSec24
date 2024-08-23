@@ -79,17 +79,33 @@ Company: Imaginary Solutions Inc.
 
 Imaginary Solutions provides customers with what they really want: a monthly subscription service where the customer is sent 10 toothpicks each month, for 15€/month.
 
-Question 1: What are we working on?
+#### Question 1: What are we working on?
 ![image](https://github.com/user-attachments/assets/135e2ac5-da23-4998-8d40-9a49db62282e)
 
+This is my DFD depicting how information related to the business is moving. Key assets include but are not limited to:
+- Customer data
+- Company financial data
+- Employee data
+- Access to company systems
+  
+This company's key assets (or **values**) essentially consist of confidential data generated or required by the business model.
 
-Question 2: What can go wrong?
+In order to deliver each customer's ordered toothpicks each month, the company needs access to their address and personal information to ship the toothpicks.
+
+Customers interact with the company via a website, on which they have an account where they input necessary personal information.
+In doing so, customers trust that the company will keep their personal data safe. In the event of this information being accessed by unauthorised actors,
+customers' trust in the company's ability to keep their information safe will lead to less customers, meaning less money for the company. Not good.
 
 
-Question 3: What are we going to do about it?
+#### Question 2: What can go wrong?
 
 
-Question 4: Did we do a good enough job?
+
+
+#### Question 3: What are we going to do about it?
+
+
+#### Question 4: Did we do a good enough job?
 
 
 
