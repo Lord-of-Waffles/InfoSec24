@@ -54,6 +54,7 @@ Finally, I allocated 60GB of storage space for the VM.
 
 I could now see the VM in the VB menu, but there was some last bits of setup left in the settings menu
 ![image](https://github.com/user-attachments/assets/f53b817a-3553-4ee4-88a2-ae2d6343041d)
+
 ![image](https://github.com/user-attachments/assets/68f703a3-69bd-4a79-9a83-7b1dc0b519c1)
 
 Now that the VM was running, I chose the first option in the boot menu, 'Live System (amd64)
@@ -65,6 +66,25 @@ It took a while to boot but waiting patiently was worth it, as the process had w
 As recommended in Tero's guide, I ran a quick test to see if everything was working normally. From the top left 'Applications' menu I chose the web browser and navigated my way to GitHub.
 There, I opened up this current draft of this assignment I'm writing. Meta, huh? Anyway, this tested that keyboard & mouse input worked, display output worked and that there was an internet connection.
 ![image](https://github.com/user-attachments/assets/5f752970-93c1-4442-9fd0-45cbe594f89f)
+
+After this I started the Debian installer from the desktop. The software tried getting me to use American English (the horror!), but I quickly rectified the situation by instead selecting British English.
+![image](https://github.com/user-attachments/assets/6d92034b-7926-4237-842a-4126cb490aa0)
+
+I set my region to Europe, and my location to Helsinki. This is relevant as it determines the system's date and time. I subsequently selected my keyboard layout as Finnish.
+
+Next, according to Kari's guide, the best option when it comes to partitioning your drive is the 'Erase Disk' option, so I checked. Blind loyalty has always been a strong suit of mine.
+![image](https://github.com/user-attachments/assets/abc5d35f-f040-4f2b-b006-e3e2e5c2c277)
+
+After this I created my user for the VM. For the password I used an example Kari uses a lot during class. Can you guess it? (Hint, it's a starchy root vegetable and some numbers.)
+![image](https://github.com/user-attachments/assets/a4234bd0-79c0-4b90-a194-dadda06e01aa)
+
+After checking everything was OK in the summary, it was time to install. This took a while, so I made a sandwich and some tea.
+![image](https://github.com/user-attachments/assets/cb4a76b9-1649-41b7-8e9d-9ca096e4b8f6)
+
+
+
+
+
 
 
 
