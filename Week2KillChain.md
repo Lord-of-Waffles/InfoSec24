@@ -2,12 +2,12 @@
 
 # Table of Contents
 -  [X)](#X)
--  [A](#A)
--  [B](#B)
--  [C](#C)
--  [D](#D)
--  [E](#E)
--  [F](#F)
+-  [A)](#A)
+-  [B)](#B)
+-  [C)](#C)
+-  [D)](#D)
+-  [E)](#E)
+-  [F)](#F)
 -  [Sources](#Sources)
 
 ## X) Document Summary - Intelligence Driven Computer Network Defense
