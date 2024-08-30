@@ -27,7 +27,7 @@ Here's Lockheed Martin's Cyber Kill Chain:
 Here's how I created a Virtual Machine running Debian Linux. Follow along!
 For reference followed this guide by Tero Karvinen
 
-# Installing VirtualBox & Linux
+## Installing VirtualBox & Debian
 I started by downloading the VirtualBox Software & Debian ISO to install the OS later:
 Here are the links:
 VirtualBox: https://www.virtualbox.org/wiki/Downloads
@@ -37,6 +37,8 @@ After completing the installation wizard for VirtualBox (Referred to as VB from 
 ![image](https://github.com/user-attachments/assets/ea09fb8a-1541-4a5d-ab28-506b7762a175)
 
 In this menu I clicked the 'New' button to begin setting up my virtual machine.
+
+## Virtual Machine Setup
 
 Afterwards, I was presented with this page, where I clicked the 'Expert Mode' button for increased control over how the VM was set up.
 ![image](https://github.com/user-attachments/assets/ac1dd87e-a89f-4562-917c-4310c60c052a)
@@ -95,6 +97,13 @@ Did it work?
 Yes, it did. 
 Done! A Debian VM, installed and ready to go. Many thanks to Kari for the very helpful guide.
 
+# Optional Bonuses
+
+## b) 
+After this, I used the command
+`$ sudo apt-get update`
+To update all software on my VM
+![image](https://github.com/user-attachments/assets/55b502a4-408e-456c-97a2-3ccff8182db8)
 
 
 
