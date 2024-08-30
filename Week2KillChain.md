@@ -151,6 +151,10 @@ ports=80,443/tcp
 
 First, I had to install netcat. I did so with this command `$ sudo apt-get install -y netcat-openbsd`
 
+Afterwards, I chose to download example.com, using the command `$ sudo nc example.com 80`, which gave me this result:
+![image](https://github.com/user-attachments/assets/22f77244-a4a2-4e2e-af97-3ac016fab07d)
+
+
 
 
 
