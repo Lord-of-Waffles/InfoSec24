@@ -1,13 +1,14 @@
 # Kill Chain & Debian 
 
 # Table of Contents
-1. [X)](#X)
-2. [A](#A)
-3. [B](#B)
-4. [C](#C)
-5. [D](#D)
-6. [E](#E)
-7. [F](#F)
+-  [X)](#X)
+-  [A](#A)
+-  [B](#B)
+-  [C](#C)
+-  [D](#D)
+-  [E](#E)
+-  [F](#F)
+-  [Sources](#Sources)
 
 ## X) Document Summary - Intelligence Driven Computer Network Defense
 In this document, employees at Lockheed Martin's Cyber Security team analyse a major change in cybersecurity attack patterns and showcase
