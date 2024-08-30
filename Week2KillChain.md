@@ -1,7 +1,11 @@
-# Kill  Chain
+# Kill Chain & Debian 
+
+# Table of Contents
+1. [A)](#A)
+2.   
 
 ## X) Document Summary - Intelligence Driven Computer Network Defense
-In this document, employees at Lockheed Martin's analyse a major change in cybersecurity attack patterns and showcase
+In this document, employees at Lockheed Martin's Cyber Security team analyse a major change in cybersecurity attack patterns and showcase
 effective methods to counter it.
 
 Previously, a majority of corporations relied on technologies and processess originally intended to mitigate the risk of legacy methods of cyber attacks such as
@@ -25,7 +29,7 @@ Here's Lockheed Martin's Cyber Kill Chain:
 
 ## A)
 Here's how I created a Virtual Machine running Debian Linux. Follow along!
-For reference followed this guide by Tero Karvinen
+To complete this process I used Tero Karvinen's article: Install Debian on Virtualbox
 
 ## Installing VirtualBox & Debian
 I started by downloading the VirtualBox Software & Debian ISO to install the OS later:
@@ -189,9 +193,12 @@ Here are the logs of me downloading the website. I used the command `$ sudo jour
 
 
 ## Sources
+https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
+https://terokarvinen.com/information-security/
 https://terokarvinen.com/2021/install-debian-on-virtualbox/
 https://reintech.io/blog/installing-apache-on-debian-12-step-by-step-guide
 https://stackoverflow.com/questions/51537084/i-installed-apache-2-but-in-sudo-ufw-app-list-there-is-no-apache-applications-in
 https://superuser.com/questions/506569/how-to-download-a-url-from-internet-by-netcat
 https://serverfault.com/questions/1148725/where-is-some-os-logs-in-debian-12#:~:text=In%20Debian%2012%2C%20the%20traditional,accessible%20using%20the%20journalctl%20command.
+https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents
 
