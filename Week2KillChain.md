@@ -66,7 +66,7 @@ Finally, I allocated 60GB of storage space for the VM.
 
 I could now see the VM in the VB menu, but there was some last bits of setup left in the settings menu
 ![image](https://github.com/user-attachments/assets/f53b817a-3553-4ee4-88a2-ae2d6343041d)
-
+.
 ![image](https://github.com/user-attachments/assets/68f703a3-69bd-4a79-9a83-7b1dc0b519c1)
 
 Now that the VM was running, I chose the first option in the boot menu, 'Live System (amd64)
@@ -169,6 +169,7 @@ Afterwards, I chose to download example.com, using the command `$ sudo nc exampl
 
 Here are the logs of me downloading the website. I used the command `$ sudo journalctl -- since "5 minutes ago"` to find them in the terminal.
 ![image](https://github.com/user-attachments/assets/70a3fcde-2506-401a-8d62-ba7396c06f45)
+.
 ![image](https://github.com/user-attachments/assets/d4913874-501d-44b4-8f51-8d084ebb6c84)
 
 ## F)
