@@ -33,11 +33,25 @@ Here's Lockheed Martin's Cyber Kill Chain:
  6. Command & Control (AKA C2) - Command channel for remote manipulation of the victim
  7. Actions on Objectives - With 'Hands on Keyboard' access, intruders accomplish their original goals
 
+Using this model, once an intrusion is detected, defenders can prevent further access into their system. In the document, LM provides an Action Matrix (Table 1) with appropriate methods of retaliation towards attackers for each kill chain step.
+However, the aforementioned zero-day exploits still pose a big threat, and are by their nature hard to prepare for. LM has identified that if the attackers utilise zero-day exploits but reuse tools or methods from or in other phases of the kill chain, the benefits of utilising the exploit may be next to nothing if the attackers are still mitigated before or after the exploit's use, disarming the threat.
+
+In fact these reuses of tools and methods are highlighted as an incredibly useful tool in neutralising APTs from the same threat actors. Analysing these intrusions allow defenders to identify these commonalities and overlapping indicators. Profiling threat actors in what are called 'Campaign Analyses' is yet another effective method provided toward's LM's suggestions of simultaenously reactive yet in a way, proactive defense.
+
+Lockheed Martin end the document with a case study of 3 attempted intrusions, attempted by the same threat actor(s). The attackers had performed significant recon and were well prepared, however they're lack of multiple attack strategies resulted in their identification earlier & earlier, preventing their intrusion.
+
+Overall I found this document to be highly informative. I found LM's advocation for reactive and proactive defense fascinating, effectively letting the same attackers make themselves easier to stop the more they tried to attack.
+Cool idea.
+
+PS: Here are some facts I found interesting from the article:
+- PDFs & MS Office files (pptx, docx, etc.) are the most common types of files to be weaponised
+- The three most prevalent delivery vectors observed by LM between 2004-2010 were email attachments, websites & USB removable media
+
 ## A)
 Here's how I created a Virtual Machine running Debian Linux. Follow along!
 To complete this process I used Tero Karvinen's article: Install Debian on Virtualbox
 
-## Installing VirtualBox & Debian
+### Installing VirtualBox & Debian
 I started by downloading the VirtualBox Software & Debian ISO to install the OS later:
 Here are the links:
 VirtualBox: https://www.virtualbox.org/wiki/Downloads
@@ -48,7 +62,7 @@ After completing the installation wizard for VirtualBox (Referred to as VB from 
 
 In this menu I clicked the 'New' button to begin setting up my virtual machine.
 
-## Virtual Machine Setup
+### Virtual Machine Setup
 
 Afterwards, I was presented with this page, where I clicked the 'Expert Mode' button for increased control over how the VM was set up.
 ![image](https://github.com/user-attachments/assets/ac1dd87e-a89f-4562-917c-4310c60c052a)
@@ -66,7 +80,7 @@ Finally, I allocated 60GB of storage space for the VM.
 
 I could now see the VM in the VB menu, but there was some last bits of setup left in the settings menu
 ![image](https://github.com/user-attachments/assets/f53b817a-3553-4ee4-88a2-ae2d6343041d)
-.
+
 ![image](https://github.com/user-attachments/assets/68f703a3-69bd-4a79-9a83-7b1dc0b519c1)
 
 Now that the VM was running, I chose the first option in the boot menu, 'Live System (amd64)
