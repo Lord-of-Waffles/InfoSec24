@@ -72,7 +72,7 @@ After this I started the Debian installer from the desktop. The software tried g
 
 I set my region to Europe, and my location to Helsinki. This is relevant as it determines the system's date and time. I subsequently selected my keyboard layout as Finnish.
 
-Next, according to Kari's guide, the best option when it comes to partitioning your drive is the 'Erase Disk' option, so I checked. Blind loyalty has always been a strong suit of mine.
+Next, according to Kari's guide, the best option when it comes to partitioning your drive is the 'Erase Disk' option, so I checked. it Blind loyalty has always been a strong suit of mine.
 ![image](https://github.com/user-attachments/assets/abc5d35f-f040-4f2b-b006-e3e2e5c2c277)
 
 After this I created my user for the VM. For the password I used an example Kari uses a lot during class. Can you guess it? (Hint, it's a starchy root vegetable and some numbers.)
@@ -80,6 +80,16 @@ After this I created my user for the VM. For the password I used an example Kari
 
 After checking everything was OK in the summary, it was time to install. This took a while, so I made a sandwich and some tea.
 ![image](https://github.com/user-attachments/assets/cb4a76b9-1649-41b7-8e9d-9ca096e4b8f6)
+
+Once the installation was all done, the VM rebooted, and I got a prompt asking for login info.
+![image](https://github.com/user-attachments/assets/5e4e20f6-25c9-48ac-a90f-3266159ff117)
+
+Aaaaaaand I was in!
+![image](https://github.com/user-attachments/assets/16623aaf-3dd5-4898-99c9-83ce209d1e93)
+
+Time to do the browser one last time:
+Did it work?
+
 
 
 
