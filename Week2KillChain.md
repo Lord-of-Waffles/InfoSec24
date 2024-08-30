@@ -1,8 +1,13 @@
 # Kill Chain & Debian 
 
 # Table of Contents
-1. [A)](#A)
-2.   
+1. [X)](#X)
+2. [A](#A)
+3. [B](#B)
+4. [C](#C)
+5. [D](#D)
+6. [E](#E)
+7. [F](#F)
 
 ## X) Document Summary - Intelligence Driven Computer Network Defense
 In this document, employees at Lockheed Martin's Cyber Security team analyse a major change in cybersecurity attack patterns and showcase
@@ -103,7 +108,7 @@ Done! A Debian VM, installed and ready to go. Many thanks to Kari for the very h
 
 # Optional Bonuses
 
-## b) 
+## B) 
 After this, I used the command
 `$ sudo apt-get update`
 To update all software on my VM
@@ -111,7 +116,7 @@ To update all software on my VM
 ![image](https://github.com/user-attachments/assets/55b502a4-408e-456c-97a2-3ccff8182db8)
 
 
-## c)
+## C)
 To install an Apache 2 server on my VM, I used the following commands from Reintech's article:
  1. `$ sudo apt update`
  2. `$ sudo apt upgrade` This took a while
@@ -151,7 +156,7 @@ ports=80,443/tcp
 ![image](https://github.com/user-attachments/assets/d66f8c90-2e07-4f9f-891c-69c6c3cdb693)
 
 
-## d)
+## D)
 
 First, I had to install netcat. I did so with this command `$ sudo apt-get install -y netcat-openbsd`
 
@@ -159,13 +164,13 @@ Afterwards, I chose to download example.com, using the command `$ sudo nc exampl
 ![image](https://github.com/user-attachments/assets/22f77244-a4a2-4e2e-af97-3ac016fab07d)
 
 
-## e)
+## E)
 
 Here are the logs of me downloading the website. I used the command `$ sudo journalctl -- since "5 minutes ago"` to find them in the terminal.
 ![image](https://github.com/user-attachments/assets/70a3fcde-2506-401a-8d62-ba7396c06f45)
 ![image](https://github.com/user-attachments/assets/d4913874-501d-44b4-8f51-8d084ebb6c84)
 
-## f)
+## F)
 
 
 
