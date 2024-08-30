@@ -35,17 +35,43 @@ Debian: https://www.debian.org/CD/http-ftp/#mirrors
 
 After completing the installation wizard for VirtualBox (Referred to as VB from now on) I was presented with this screen:
 ![image](https://github.com/user-attachments/assets/ea09fb8a-1541-4a5d-ab28-506b7762a175)
+
 In this menu I clicked the 'New' button to begin setting up my virtual machine.
+
 Afterwards, I was presented with this page, where I clicked the 'Expert Mode' button for increased control over how the VM was set up.
 ![image](https://github.com/user-attachments/assets/ac1dd87e-a89f-4562-917c-4310c60c052a)
+
 In the next screen, I set a name for the VM, chose which ISO Image I would use (I used the Debian Image from the page linked earlier) and clicked the 'Skip Unattended Installation'
 button. According to Tero's guide, installing 64-bit Debian was not possible otherwise.
 ![image](https://github.com/user-attachments/assets/4d8d126c-7ac3-485a-8b35-398469d07d5e)
+
 Afterwards I dedicated 8GBs of RAM & 6 cores to the VM to ensure it ran smoothly. According to Tero's guide, you should allocate at least 4GBs of RAM and I personally wanted it to run as smooth as possible,
 hence the processing power of 6 cores.
 ![image](https://github.com/user-attachments/assets/51be39b4-e559-4141-8c78-13ff33cc0a4b)
+
 Finally, I allocated 60GB of storage space for the VM.
 ![image](https://github.com/user-attachments/assets/190a6e5b-d491-47aa-ad25-f0d25e8e042b)
+
+I could now see the VM in the VB menu, but there was some last bits of setup left in the settings menu
+![image](https://github.com/user-attachments/assets/f53b817a-3553-4ee4-88a2-ae2d6343041d)
+![image](https://github.com/user-attachments/assets/68f703a3-69bd-4a79-9a83-7b1dc0b519c1)
+
+Now that the VM was running, I chose the first option in the boot menu, 'Live System (amd64)
+![image](https://github.com/user-attachments/assets/57a0ba55-70c3-42c8-a778-bd56a330f558)
+
+It took a while to boot but waiting patiently was worth it, as the process had worked! However, I wasn't done.
+![image](https://github.com/user-attachments/assets/41545458-f5e9-4c04-bc0f-a850ccd05522)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
