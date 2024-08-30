@@ -103,10 +103,21 @@ Done! A Debian VM, installed and ready to go. Many thanks to Kari for the very h
 After this, I used the command
 `$ sudo apt-get update`
 To update all software on my VM
+
 ![image](https://github.com/user-attachments/assets/55b502a4-408e-456c-97a2-3ccff8182db8)
 
 
-
+## c)
+To install an Apache 2 server on my VM, I used the following commands from Reintech's article:
+ 1. `$ sudo apt update`
+ 2. `$ sudo apt upgrade` This took a while
+ 3. `$ sudo apt install apache2`
+ 4. `$ sudo systemtcl status apache2`
+ 5. `$ sudo ufw allow 'Apache'`
+ 6. `$ sudo ufw reload`
+ 7. `$ sudo systemctl stop apache2`
+ 8. `$ sudo systemctl start apache2`
+ 9. `$ sudo systemctl enable apache2`
 
 
 
@@ -133,3 +144,7 @@ To update all software on my VM
 
 
 ## Sources
+https://terokarvinen.com/2021/install-debian-on-virtualbox/
+https://reintech.io/blog/installing-apache-on-debian-12-step-by-step-guide
+
+
