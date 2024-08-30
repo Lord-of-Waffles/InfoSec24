@@ -112,13 +112,44 @@ To install an Apache 2 server on my VM, I used the following commands from Reint
  1. `$ sudo apt update`
  2. `$ sudo apt upgrade` This took a while
  3. `$ sudo apt install apache2`
- 4. `$ sudo systemtcl status apache2`
+ 4. `$ sudo systemcl status apache2`
  5. `$ sudo ufw allow 'Apache'`
  6. `$ sudo ufw reload`
  7. `$ sudo systemctl stop apache2`
  8. `$ sudo systemctl start apache2`
  9. `$ sudo systemctl enable apache2`
+     
+Command 4 didn't work me, so I had to install ufw
 
+![image](https://github.com/user-attachments/assets/b5b77d02-5133-4b33-9ef8-fcc2f7b1155f)
+
+Command 5 also didn't work, so I used a trick from stackoverflow to create the profile myself:
+First, I ran this code `$ sudo apt-get -y install gedit`, then
+`$ sudo gedit /etc/ufw/applications.d/apache2-utils.ufw.profile`
+![image](https://github.com/user-attachments/assets/5de3f05e-0062-49f7-8cb8-2b7206e88666)
+
+This opened this text editor, which i filled with this information and saved:
+[Apache]
+title=Web Server
+description=Apache v2 is the next generation of the omnipresent Apache web server.
+ports=80/tcp
+
+[Apache Secure]
+title=Web Server (HTTPS)
+description=Apache v2 is the next generation of the omnipresent Apache web server.
+ports=443/tcp
+
+[Apache Full]
+title=Web Server (HTTP,HTTPS)
+description=Apache v2 is the next generation of the omnipresent Apache web server.
+ports=80,443/tcp
+
+![image](https://github.com/user-attachments/assets/d66f8c90-2e07-4f9f-891c-69c6c3cdb693)
+
+
+## d)
+
+First, I had to install netcat. I did so with this command `$ sudo apt-get install -y netcat-openbsd`
 
 
 
@@ -146,5 +177,6 @@ To install an Apache 2 server on my VM, I used the following commands from Reint
 ## Sources
 https://terokarvinen.com/2021/install-debian-on-virtualbox/
 https://reintech.io/blog/installing-apache-on-debian-12-step-by-step-guide
+https://stackoverflow.com/questions/51537084/i-installed-apache-2-but-in-sudo-ufw-app-list-there-is-no-apache-applications-in
 
 
