@@ -62,6 +62,9 @@ Now that the VM was running, I chose the first option in the boot menu, 'Live Sy
 It took a while to boot but waiting patiently was worth it, as the process had worked! However, I wasn't done.
 ![image](https://github.com/user-attachments/assets/41545458-f5e9-4c04-bc0f-a850ccd05522)
 
+As recommended in Tero's guide, I ran a quick test to see if everything was working normally. From the top left 'Applications' menu I chose the web browser and navigated my way to GitHub.
+There, I opened up this current draft of this assignment I'm writing. Meta, huh? Anyway, this tested that keyboard & mouse input worked, display output worked and that there was an internet connection.
+![image](https://github.com/user-attachments/assets/5f752970-93c1-4442-9fd0-45cbe594f89f)
 
 
 
