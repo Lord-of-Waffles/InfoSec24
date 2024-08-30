@@ -23,6 +23,39 @@ Here's Lockheed Martin's Cyber Kill Chain:
  6. Command & Control (AKA C2) - Command channel for remote manipulation of the victim
  7. Actions on Objectives - With 'Hands on Keyboard' access, intruders accomplish their original goals
 
+## A)
+Here's how I created a Virtual Machine running Debian Linux. Follow along!
+For reference followed this guide by Tero Karvinen
+
+# Installing VirtualBox & Linux
+I started by downloading the VirtualBox Software & Debian ISO to install the OS later:
+Here are the links:
+VirtualBox: https://www.virtualbox.org/wiki/Downloads
+Debian: https://www.debian.org/CD/http-ftp/#mirrors
+
+After completing the installation wizard for VirtualBox (Referred to as VB from now on) I was presented with this screen:
+![image](https://github.com/user-attachments/assets/ea09fb8a-1541-4a5d-ab28-506b7762a175)
+In this menu I clicked the 'New' button to begin setting up my virtual machine.
+Afterwards, I was presented with this page, where I clicked the 'Expert Mode' button for increased control over how the VM was set up.
+![image](https://github.com/user-attachments/assets/ac1dd87e-a89f-4562-917c-4310c60c052a)
+In the next screen, I set a name for the VM, chose which ISO Image I would use (I used the Debian Image from the page linked earlier) and clicked the 'Skip Unattended Installation'
+button. According to Tero's guide, installing 64-bit Debian was not possible otherwise.
+![image](https://github.com/user-attachments/assets/4d8d126c-7ac3-485a-8b35-398469d07d5e)
+Afterwards I dedicated 8GBs of RAM & 6 cores to the VM to ensure it ran smoothly. According to Tero's guide, you should allocate at least 4GBs of RAM and I personally wanted it to run as smooth as possible,
+hence the processing power of 6 cores.
+![image](https://github.com/user-attachments/assets/51be39b4-e559-4141-8c78-13ff33cc0a4b)
+Finally, I allocated 60GB of storage space for the VM.
+![image](https://github.com/user-attachments/assets/190a6e5b-d491-47aa-ad25-f0d25e8e042b)
+
+
+
+
+
+
+
+
+
+
 
 
 ## Sources
