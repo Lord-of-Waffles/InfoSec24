@@ -90,6 +90,12 @@ Aaaaaaand I was in!
 Time to do the browser one last time:
 Did it work?
 
+![image](https://github.com/user-attachments/assets/982cc442-2b3e-484e-ac4e-6cd44fca6388)
+
+Yes, it did. 
+Done! A Debian VM, installed and ready to go. Many thanks to Kari for the very helpful guide.
+
+
 
 
 
