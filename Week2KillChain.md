@@ -81,6 +81,7 @@ Finally, I allocated 60GB of storage space for the VM.
 I could now see the VM in the VB menu, but there was some last bits of setup left in the settings menu
 ![image](https://github.com/user-attachments/assets/f53b817a-3553-4ee4-88a2-ae2d6343041d)
 
+
 ![image](https://github.com/user-attachments/assets/68f703a3-69bd-4a79-9a83-7b1dc0b519c1)
 
 Now that the VM was running, I chose the first option in the boot menu, 'Live System (amd64)
@@ -109,6 +110,7 @@ After checking everything was OK in the summary, it was time to install. This to
 
 Once the installation was all done, the VM rebooted, and I got a prompt asking for login info.
 ![image](https://github.com/user-attachments/assets/5e4e20f6-25c9-48ac-a90f-3266159ff117)
+
 
 Aaaaaaand I was in!
 ![image](https://github.com/user-attachments/assets/16623aaf-3dd5-4898-99c9-83ce209d1e93)
@@ -201,12 +203,19 @@ I don't really think one is better than the other because if combined, then you'
 
 ## Sources
 Arthur Codex, 2024: https://reintech.io/blog/installing-apache-on-debian-12-step-by-step-guide
+
 Lockheed Martin, 2014: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
+
 Tero Karvinen, 2024: https://terokarvinen.com/information-security/
+
 Tero Karvinen, 2023: https://terokarvinen.com/2021/install-debian-on-virtualbox/
+
 Serverfault, 2023: https://serverfault.com/questions/1148725/where-is-some-os-logs-in-debian-12#:~:text=In%20Debian%2012%2C%20the%20traditional,accessible%20using%20the%20journalctl%20command.
+
 Stackoverflow, 2018: https://stackoverflow.com/questions/51537084/i-installed-apache-2-but-in-sudo-ufw-app-list-there-is-no-apache-applications-in
+
 Stackoverflow, 2012: https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents
+
 Superuser, 2012: https://superuser.com/questions/506569/how-to-download-a-url-from-internet-by-netcat
 
 
