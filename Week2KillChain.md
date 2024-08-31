@@ -182,8 +182,10 @@ Afterwards, I chose to download example.com, using the command `$ sudo nc exampl
 ## E)
 
 Here are the logs of me downloading the website. I used the command `$ sudo journalctl -- since "5 minutes ago"` to find them in the terminal.
+
+
 ![image](https://github.com/user-attachments/assets/70a3fcde-2506-401a-8d62-ba7396c06f45)
-.
+
 ![image](https://github.com/user-attachments/assets/d4913874-501d-44b4-8f51-8d084ebb6c84)
 
 ## F)
@@ -198,12 +200,13 @@ I don't really think one is better than the other because if combined, then you'
 
 
 ## Sources
-https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
-https://terokarvinen.com/information-security/
-https://terokarvinen.com/2021/install-debian-on-virtualbox/
-https://reintech.io/blog/installing-apache-on-debian-12-step-by-step-guide
-https://stackoverflow.com/questions/51537084/i-installed-apache-2-but-in-sudo-ufw-app-list-there-is-no-apache-applications-in
-https://superuser.com/questions/506569/how-to-download-a-url-from-internet-by-netcat
-https://serverfault.com/questions/1148725/where-is-some-os-logs-in-debian-12#:~:text=In%20Debian%2012%2C%20the%20traditional,accessible%20using%20the%20journalctl%20command.
-https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents
+Arthur Codex, 2024: https://reintech.io/blog/installing-apache-on-debian-12-step-by-step-guide
+Lockheed Martin, 2014: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
+Tero Karvinen, 2024: https://terokarvinen.com/information-security/
+Tero Karvinen, 2023: https://terokarvinen.com/2021/install-debian-on-virtualbox/
+Serverfault, 2023: https://serverfault.com/questions/1148725/where-is-some-os-logs-in-debian-12#:~:text=In%20Debian%2012%2C%20the%20traditional,accessible%20using%20the%20journalctl%20command.
+Stackoverflow, 2018: https://stackoverflow.com/questions/51537084/i-installed-apache-2-but-in-sudo-ufw-app-list-there-is-no-apache-applications-in
+Stackoverflow, 2012: https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents
+Superuser, 2012: https://superuser.com/questions/506569/how-to-download-a-url-from-internet-by-netcat
+
 
