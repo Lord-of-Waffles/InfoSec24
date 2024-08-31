@@ -204,7 +204,7 @@ I don't really think one is better than the other because if combined, then you'
 ## Sources
 Arthur Codex, 2024: https://reintech.io/blog/installing-apache-on-debian-12-step-by-step-guide
 
-Lockheed Martin, 2014: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
+Hutchines et al, 2011: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
 
 Tero Karvinen, 2024: https://terokarvinen.com/information-security/
 
