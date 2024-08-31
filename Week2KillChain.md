@@ -189,27 +189,11 @@ Here are the logs of me downloading the website. I used the command `$ sudo jour
 ## F)
 
 
+If the Kill Chain provides defenders with the next logical steps they need to take to make an intrusion and complete their objective,
+Mitre's ATT&CK-framework provides a detailed description of actions they may take in each step. In the framework there are 14 different categories of actions, called 'tactics', such as reconnaisance, defense evasion, lateral movement etc. These tactics are further broken down into 'techniques', which provide details on what attackers need to do in order to utilise these techniques and tactics.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The Kill Chain offers a broader view of the situation, and ATT&CK (which stands for Adverserial Tactics, Techniques & Common Knowledge) provides a more in-depth look into exactly **how** attackers will attack.
+I don't really think one is better than the other because if combined, then you're even better off!
 
 
 
