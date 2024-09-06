@@ -39,13 +39,11 @@ Phew this one took a bit, but I solved it!
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/eaea14e7-fe13-457b-bb88-d1517d6826ef">
 
 
-
-
-
-
-
-
 ## b)
+
+No interwebs, no connections
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/a03d4c92-1e56-4cab-a48d-e65525c5463c">
+
 ## c)
 ## d)
 ## e)
