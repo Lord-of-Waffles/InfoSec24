@@ -2,6 +2,12 @@
 ## By Benjamin Worton
 
 ## x)
+
+### Presentation summary
+
+I watched the presentation titled "Smoke and Mirrors: How to Hide in MS Azure" By Aled Mehta & Christian Philipov (link: https://www.youtube.com/watch?v=uvoV75Q7cqU&list=PLLvAhAn5sGfiB9AlEt2KD7H9Dnr6kbd64&index=8&ab_channel=Disobey)
+
+The point of the presentation was to highlight how more value clouds now hold to attackers due to the increase in critical data stored in them. As an example, in November 2022 Microsoft identified 0 instances potential exfiltrations of data (meaning data being extracted by non-authorised users), whereas in June 2023, they identified ~475,000. In between April and May 2023 there were ~40 billion brute force attempts at cracking passwords, which was roughly 4000 attacks per second.
 ## a)
 Here we go! I'm doing these levels in the virtual Debian machine installed last week.
 <img width="1443" alt="image" src="https://github.com/user-attachments/assets/0fd67041-2771-4110-8f30-433463c767f4">
