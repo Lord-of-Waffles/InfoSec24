@@ -44,6 +44,14 @@ Phew this one took a bit, but I solved it!
 No interwebs, no connections
 <img width="496" alt="image" src="https://github.com/user-attachments/assets/a03d4c92-1e56-4cab-a48d-e65525c5463c">
 
+Here's what happens when there's a connection:
+
+![image](https://github.com/user-attachments/assets/c75d2a89-d791-47e0-bb39-25bfacc30337)
+
+Ping is a command that tracks the time it takes to send and receive a packet to a server. In this case, I pinged Google's DNS server and it took 329ms to send and receive a packet. 8.8.8.8 is their public IPv4 address.
+It's pretty easy to determine from the error message why I couldn't ping to the server without a connection, I wasn't on tht internet (big mass of networks), therefore there was no way to connect to the specified address since it was not a local address.
+
+
 ## c)
 ## d)
 ## e)
