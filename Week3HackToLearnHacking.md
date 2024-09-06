@@ -53,5 +53,14 @@ It's pretty easy to determine from the error message why I couldn't ping to the 
 
 
 ## c)
+Results:
+<img width="1341" alt="image" src="https://github.com/user-attachments/assets/e02122a4-3925-4bd2-8b58-c589a4c832e4">
+
+Analysis goes here
+
 ## d)
+Results:
+<img width="1226" alt="image" src="https://github.com/user-attachments/assets/e7133c40-232d-4add-a4f9-6f974e947eb8">
+
+Analysis goes here
 ## e)
