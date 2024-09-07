@@ -254,11 +254,17 @@ In all fairness it was quite similar to overthewire, but I felt much more comfor
 
 ## Sources
 Disobey 2024: https://www.youtube.com/watch?v=uvoV75Q7cqU&list=PLLvAhAn5sGfiB9AlEt2KD7H9Dnr6kbd64&index=8&ab_channel=Disobey
+
 Hackercool 2013: https://www.hackercoolmagazine.com/understanding-port-scanning-results-of-nmap/
+
 Karvinen 2024: https://terokarvinen.com/information-security/#h3-hack-to-learn-hacking
+
 Karvinen 2020: https://terokarvinen.com/2020/command-line-basics-revisited/
+
 Microsoft 2015: https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/
+
 Nakamoto 2008: https://bitcoin.org/bitcoin.pdf
+
 Schneier 2015: Applied Cryptography: 2.4 One-Way Hash Functions
 
 
