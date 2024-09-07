@@ -198,7 +198,7 @@ I did all testing for assignments c) & d) offline.
 Results:
 <img width="1341" alt="image" src="https://github.com/user-attachments/assets/e02122a4-3925-4bd2-8b58-c589a4c832e4">
 
-I had hardly any idea what I was looking at here, so I used this website to help understand the results: ([https://nmap.org/book/zenmap-results.html](https://www.hackercoolmagazine.com/understanding-port-scanning-results-of-nmap/))
+I had hardly any idea what I was looking at here, so I used this website to help understand the results: (https://www.hackercoolmagazine.com/understanding-port-scanning-results-of-nmap/)
 The test scanned 2 ports, 25 & 631. Port 25 is used for SMTP email transfer, and is classed as tcp open because it's ready to receive tcp connections.
 Under that is the SSL certificate needed to use HTTPS, and under that are the SMTP commands.
 
