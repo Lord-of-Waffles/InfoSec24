@@ -30,6 +30,58 @@ In the article Tero also provide
 
 ### Protocol Building Blocks
 
+This chapter details different types of protocols in modern cryptography. While quite long, it was packed full of theory for a topic I've wanted to learn more about for quite a while.
+
+Firstly: What's a protocol?
+A protocol is a series of steps, involving two or more parties, designed to accomplish a task. 
+They abstract the process of accomplishing a task from the mechanism by which the task is accomplished.
+
+As can be extrapolated from the name, a cryptographic protocol is a protocol that uses cryptography, involving some cryptographic algorithm.
+A simple goal for a cryptographic protocol is the it should not be possible to do or learn more than what is specified in the protocol.
+
+There are a few other types of protocols:
+- Arbitrated Protocol: Comprised of 3 parties, the 2 main parties and an arbitrator (disintrested third party trusted to complete a protocol)
+- Abjudicated Protocol: In addition to the 2 main parties, in the even of a dispute the outcome of the protocol is determined by a third party, an abjudicator (likea judge in a court case)
+- Self-Enforcing Protocol: Only 2 main parties, no third party required. The protocol is constructed so that there cannot be any disputes. If one of the parties tries to cheat it is immediately detected and the protocol stops.
+
+But it isn't as simple as you'd think, because protocols can be influenced. Attacks are classified into passive and active attacks:
+- Passive: Someone not involved in the prtocol can eavesdrop on some or all of the protocol.
+- Active: An attacker can try to alter the protocol to their own advantage by for example: manipulating previous messages, posing as someone else, manipulating stored information etc.
+
+It is also possible that the attacker could be on of the parties involved in the protocol, called a cheater:
+- Passive cheaters follow the protocol, but try to obtain more information than the protocol intends them to.
+- Active cheaters disrupt the protocol in progress in an attempt to cheat.
+
+Cryptosystems:
+
+A good cryptosystem is one in which all the security is inherent in knowledge of the key and none is inherent in knowledge of the algorithm.
+
+There are 3 types of cryptosystems:
+1. Symmetric cryptosystems - Same key used for both encrypting and decrypting messages
+2. Public key cryptosystems - Messages are encrypted using receivers public key, but can only be decrypted by their private key, which only the receiver can access.
+3. Hybrid cryptosystems - Since symmetric cryptosystems are faster than public key ones but not as secure, a public key cryptosystem is used to create a session key between the communicating parties, which is then sent using symmetric encryption.
+
+One-Way functions:
+
+A one-way function would be something like  func(x) = x
+
+It is easy to understand the output when you have the input, but the reverse is much harder.  
+
+While one-way functions are not protocols, many commonly used protocols used in modern cryptography utilise one-way functions, such as:
+- Trapdoor one-way function: special type of one-way function with a secret trapdoor. If you know the secret, you can easily compute the function in reverse.
+- A one-way hash function: function that takes a variable length input string (called a pre-image) and converts it to a fixed-length (generally smaller) output string (called a has value)
+
+The point of a hash function is to fingerprint an image; To produce a value that indicates whether a candidate pre-image is likely to be the same as the real pre-image.
+
+
+The latter part of the chapter provides methods of creating authentic digital signatures:
+- A symmetric cryptosystem & an arbitrator
+- Public key cryptography
+- Digital Signature Trees - used in bitcoin!
+- public key cryptography + one-way hash functions
+
+All in all an interesting read, if a bit long. Was good to catch me up on some cryptography basic theory before diving into the Bitcoin paper!
+
 
 ### Bitcoin
 
