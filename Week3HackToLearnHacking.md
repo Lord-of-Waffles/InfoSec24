@@ -195,3 +195,9 @@ Results:
 
 Analysis goes here
 ## e)
+
+## Sources
+https://bitcoin.org/bitcoin.pdf
+https://terokarvinen.com/information-security/#h3-hack-to-learn-hacking
+https://terokarvinen.com/2020/command-line-basics-revisited/
+the book chapter fix this later
