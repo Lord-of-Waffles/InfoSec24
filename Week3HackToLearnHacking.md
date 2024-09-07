@@ -87,9 +87,43 @@ All in all an interesting read, if a bit long. Was good to catch me up on some c
 
 In this paper, the concept for cryptocurrencies is introduced.
 
+The author, going by the name Satoshi Nakamoto (they have never publicly revealed themselves, so this alias is not considered by all to by the author's real name), presents their case as to why an electronic payment system based on cryptographic proof is needed, instead of more traditional trust based methods such as banks. This system would allow any two willing parties to transact directly with each other without the need for a trusted third party.
 
+The currency would be (is) an electronic "coin", or a chain of digital signatures. Each owner transfers the coin to the next owner by digitally signing a hash of the previous transaction and the public key of the next owner and adding those to the end of the coin. Ownership can be verified by verifying the signatures on the chain.
 
+But there's a problem: A payee can't verify that one of the owners did not double-spend the cash.
 
+If you were to introduce a trusted central authority (such as a bank) the fate of the entire monetary system depends on the authority's actions. Not the best. What else?
+
+Transactions are public announced using a timestamp server:
+- A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash. The timestamp proves that the data must have existed at the time in order to get into the hash.
+
+Next: proof-of-work:
+Proof-of-work involves scanning for a value that when hashed, such as with an algorithm such as SHA-256 (developed by the NSA!), the hash begins  with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash. Proof-of-work is essentially a one-CPU-one-vote system. The system is secure as long as honest nodes performing the proof-of-work calculations collectively control more CPU power than any cooperating group of attacker nodes.
+
+Here's how this network is run:
+1. New transactions are broadcast to all nodes
+2. Each node collects new transactions into a block
+3. Each node works on finding a difficult proof-of-work for its block
+4. When a node finds a proof-of-work, it broadcasts the block to all needs
+5. Nodes accept the block only if all transactions in it are valid and not already spent
+6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous block
+
+Nodes consider the longest chain to be the correct one and will keep working on extending it.
+
+By convention the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coints into circulation, since there is no central authority to issue them.
+
+The steady addition new coins is analogous to gold miners expending resources to add gold to circulation.
+
+The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. They will most likely find it more profitable to play by the rules which favour them with more new coins than everyone else combined, instead of undermining the system and subsequently, their wealth.
+
+Older block are archived using digital signature trees to save disk space. 
+
+To allow value to be split and combined, transactions contain multiple inputs & outputs
+
+the traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party
+
+a new system for electronic transactions without relying on trust
 
 ## a)
 Here we go! I'm doing these levels in the virtual Debian machine installed last week.
