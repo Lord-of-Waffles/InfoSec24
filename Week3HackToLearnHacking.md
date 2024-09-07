@@ -1,13 +1,22 @@
 # Week 3 Homework - Hack to Learn Hacking
 ## By Benjamin Worton
 
+# Table of Contents
+-  [x)](#x)
+-  [a)](#a) 
+-  [b)](#b)
+-  [c)](#c)
+-  [d)](#d)
+-  [e)](#e)
+-  [Sources](#Sources)
+
 ## x)
 
 ### Presentation summary
 
 I watched the presentation titled "Smoke and Mirrors: How to Hide in MS Azure" By Aled Mehta & Christian Philipov (link: https://www.youtube.com/watch?v=uvoV75Q7cqU&list=PLLvAhAn5sGfiB9AlEt2KD7H9Dnr6kbd64&index=8&ab_channel=Disobey)
 
-The point of the presentation was to highlight how more value clouds now hold to attackers due to the increase in critical data stored in them. As an example, in November 2022 Microsoft identified 0 instances potential exfiltrations of data (meaning data being extracted by non-authorised users), whereas in June 2023, they identified ~475,000. In between April and May 2023 there were ~40 billion brute force attempts at cracking passwords, which was roughly 4000 attacks per second.
+The point of the presentation was to highlight how much more value clouds now hold to attackers due to the increase in critical data stored in them. As an example, in November 2022 Microsoft identified 0 instances potential exfiltrations of data (meaning data being extracted by non-authorised users), whereas in June 2023, they identified ~475,000. In between April and May 2023 there were ~40 billion brute force attempts at cracking passwords, which was roughly 4000 attacks per second.
 In addition, attacks are becoming more sophisticated
 
 The presenters then expand on some specifics about MS Azure (Microsoft's cloud service) and which actions are logged:
@@ -20,18 +29,18 @@ The presenters then expand on some specifics about MS Azure (Microsoft's cloud s
 
 Surprisingly, some APIs used in sign-in and audit actions do are not logged!
 
-This poses a significant security risk. The presenters make a point of understanding the tools you use in your business. Running any telemtry data you get from processes through some kind of analysis software can help identify problems you didn't even know were happening.
+This poses a significant security risk. The presenters make a point of understanding the tools you use in your business. Running any telemetry data you get from processes through some kind of analysis software can help identify problems you didn't even know were happening.
 
 ### Command Line Basics Revisited - Karvinen 2020
 
 This article provides a list of basic commands for command line interfaces, and explanations for each of them.
 
-This was a really useful resource for the later assignments especially a)!
+This was a really useful resource for the later assignments, especially a)!
 
 These commands are used for manoeuvring around a computer's file directories and manipulating data.
 They can also be used to connect to remote servers where you can use the same commands to interact with that server's data & directories.
 
-I've also found the terminal to be a nice and quick way of installing software by using Homebrew. I really recommend it!
+I've also found the terminal to be a nice and quick way of installing software by using Homebrew (I'm on MacOS). I really recommend it!
 
 
 ### Protocol Building Blocks
@@ -184,16 +193,28 @@ It's pretty easy to determine from the error message why I couldn't ping to the 
 
 
 ## c)
+I did all testing for assignments c) & d) offline.
+
 Results:
 <img width="1341" alt="image" src="https://github.com/user-attachments/assets/e02122a4-3925-4bd2-8b58-c589a4c832e4">
 
-Analysis goes here
+I had hardly any idea what I was looking at here, so I used this website to help understand the results: ([https://nmap.org/book/zenmap-results.html](https://www.hackercoolmagazine.com/understanding-port-scanning-results-of-nmap/))
+The test scanned 2 ports, 25 & 631. Port 25 is used for SMTP email transfer, and is classed as tcp open because it's ready to receive tcp connections.
+Under that is the SSL certificate needed to use HTTPS, and under that are the SMTP commands.
+
+The next port is 631. I tried looking into this and the best info I found was that it was a default port commonly open on Linux machines (I was running these tests in my Debian virtual machine)
+Below this is some http metadata, such as the robots.txt file which blacklists which bots & crawlers can access a web address.
+Below this is some hardware information about the machine, including which version of which OS it's running, behind this port (my virtual machine)
 
 ## d)
 Results:
 <img width="1226" alt="image" src="https://github.com/user-attachments/assets/e7133c40-232d-4add-a4f9-6f974e947eb8">
 
-Analysis goes here
+Not much was added except a new open port, 80. It's open to TCP and and has some http metadata below it (page title & a header).
+
+
+
+
 ## e)
 ### LEVEL 0
 Since underthewire seemed to be meant for Windows users, I swapped to my other laptop for this one.
@@ -231,13 +252,13 @@ In all fairness it was quite similar to overthewire, but I felt much more comfor
 (also didn't need to join a slack channel for overthewire, just the website was enough)
 
 
-
-
-
-
 ## Sources
-https://bitcoin.org/bitcoin.pdf
-https://terokarvinen.com/information-security/#h3-hack-to-learn-hacking
-https://terokarvinen.com/2020/command-line-basics-revisited/
-the book chapter fix this later
-https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/
+Disobey 2024: https://www.youtube.com/watch?v=uvoV75Q7cqU&list=PLLvAhAn5sGfiB9AlEt2KD7H9Dnr6kbd64&index=8&ab_channel=Disobey
+Hackercool 2013: https://www.hackercoolmagazine.com/understanding-port-scanning-results-of-nmap/
+Karvinen 2024: https://terokarvinen.com/information-security/#h3-hack-to-learn-hacking
+Karvinen 2020: https://terokarvinen.com/2020/command-line-basics-revisited/
+Microsoft 2015: https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/
+Nakamoto 2008: https://bitcoin.org/bitcoin.pdf
+Schneier 2015: Applied Cryptography: 2.4 One-Way Hash Functions
+
+
