@@ -85,6 +85,10 @@ All in all an interesting read, if a bit long. Was good to catch me up on some c
 
 ### Bitcoin
 
+In this paper, the concept for cryptocurrencies is introduced.
+
+
+
 
 
 ## a)
