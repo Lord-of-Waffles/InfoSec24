@@ -195,9 +195,29 @@ Results:
 
 Analysis goes here
 ## e)
+### LEVEL 0
+Since underthewire seemed to meant for Windows users, I swapped to my other laptop for this one.
+The first step to get started was to join the Slack channel to get the required credentials and install PuTTY (I got it from here https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+Then, connecting to the remote server via SSH.
+And connected!
+![image](https://github.com/user-attachments/assets/b6185e5b-2bf2-4c45-90b5-8a9c3f18c017)
+
+### LEVEL 1
+
+I had to lookup a list of powershell commands as I had absolutely no idea what they were (https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/)
+Some where familiar from though like cat, mkdir, ls etc.
+![image](https://github.com/user-attachments/assets/9f3dc6b6-a3c2-4284-947d-82f5edca142c)
+Donezo, password acquired! on to the next level:
+
+### LEVEL 2
+
+
+
+
 
 ## Sources
 https://bitcoin.org/bitcoin.pdf
 https://terokarvinen.com/information-security/#h3-hack-to-learn-hacking
 https://terokarvinen.com/2020/command-line-basics-revisited/
 the book chapter fix this later
+https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/
