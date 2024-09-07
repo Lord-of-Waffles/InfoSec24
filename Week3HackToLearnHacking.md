@@ -166,7 +166,7 @@ Success:
 Here we go:
 <img width="188" alt="image" src="https://github.com/user-attachments/assets/30edaf5c-c2ea-48c5-a5bc-bfff96e13dc8">
 
-Phew this one took a bit, but I solved it!
+Phew this one took a bit of thinking, but I solved it!
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/eaea14e7-fe13-457b-bb88-d1517d6826ef">
 
 
