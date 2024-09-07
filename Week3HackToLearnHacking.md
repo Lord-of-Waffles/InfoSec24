@@ -196,7 +196,7 @@ Results:
 Analysis goes here
 ## e)
 ### LEVEL 0
-Since underthewire seemed to meant for Windows users, I swapped to my other laptop for this one.
+Since underthewire seemed to be meant for Windows users, I swapped to my other laptop for this one.
 The first step to get started was to join the Slack channel to get the required credentials and install PuTTY (I got it from here https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 Then, connecting to the remote server via SSH.
 And connected!
@@ -210,6 +210,13 @@ Some where familiar from though like cat, mkdir, ls etc.
 Donezo, password acquired! on to the next level:
 
 ### LEVEL 2
+
+And we're in: 
+![image](https://github.com/user-attachments/assets/fc62c90e-0d00-48fa-b38a-10e87302b733)
+Here's half the password:
+![image](https://github.com/user-attachments/assets/78f63ab0-af3c-41e4-a61e-f590d0e47a59)
+
+Time to see if I got it right.
 
 
 
