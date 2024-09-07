@@ -200,23 +200,36 @@ Since underthewire seemed to be meant for Windows users, I swapped to my other l
 The first step to get started was to join the Slack channel to get the required credentials and install PuTTY (I got it from here https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 Then, connecting to the remote server via SSH.
 And connected!
+
 ![image](https://github.com/user-attachments/assets/b6185e5b-2bf2-4c45-90b5-8a9c3f18c017)
 
 ### LEVEL 1
 
 I had to lookup a list of powershell commands as I had absolutely no idea what they were (https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/)
 Some where familiar from though like cat, mkdir, ls etc.
+
 ![image](https://github.com/user-attachments/assets/9f3dc6b6-a3c2-4284-947d-82f5edca142c)
+
 Donezo, password acquired! on to the next level:
 
 ### LEVEL 2
 
 And we're in: 
+
 ![image](https://github.com/user-attachments/assets/fc62c90e-0d00-48fa-b38a-10e87302b733)
+
 Here's half the password:
+
 ![image](https://github.com/user-attachments/assets/78f63ab0-af3c-41e4-a61e-f590d0e47a59)
 
 Time to see if I got it right.
+![image](https://github.com/user-attachments/assets/fc28531f-d183-4241-8e3e-7f2e3c9b15ae)
+
+Nice!
+
+In all fairness it was quite similar to overthewire, but I felt much more comfortable using more standard commands than the weirdly long powershell ones. I can recommend both, but I liked overthewire more.
+(also didn't need to join a slack channel for overthewire, just the website was enough)
+
 
 
 
