@@ -18,6 +18,21 @@ The presenters then expand on some specifics about MS Azure (Microsoft's cloud s
 5. Identity risk
 6. Global Secure Access
 
+Surprisingly, some APIs used in sign-in and audit actions do are not logged!
+
+This poses a significant security risk. The presenters make a point of understanding the tools you use in your business. Running any telemtry data you get from processes through some kind of analysis software can help identify problems you didn't even know were happening.
+
+### Command Line Basics Revisited - Karvinen 2020
+
+This article provides a list of basic commands for command line interfaces, and explanations for each of them.
+
+In the article Tero also provide
+
+### Protocol Building Blocks
+
+
+### Bitcoin
+
 
 
 ## a)
