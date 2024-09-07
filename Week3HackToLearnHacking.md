@@ -26,7 +26,13 @@ This poses a significant security risk. The presenters make a point of understan
 
 This article provides a list of basic commands for command line interfaces, and explanations for each of them.
 
-In the article Tero also provide
+This was a really useful resource for the later assignments especially a)!
+
+These commands are used for manoeuvring around a computer's file directories and manipulating data.
+They can also be used to connect to remote servers where you can use the same commands to interact with that server's data & directories.
+
+I've also found the terminal to be a nice and quick way of installing software by using Homebrew. I really recommend it!
+
 
 ### Protocol Building Blocks
 
@@ -109,6 +115,8 @@ Here's how this network is run:
 5. Nodes accept the block only if all transactions in it are valid and not already spent
 6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous block
 
+##### Here are some other bits of knowledge from the document I couldn't really figure out a category for, but felt were important:
+
 Nodes consider the longest chain to be the correct one and will keep working on extending it.
 
 By convention the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coints into circulation, since there is no central authority to issue them.
@@ -119,11 +127,11 @@ The incentive may help encourage nodes to stay honest. If a greedy attacker is a
 
 Older block are archived using digital signature trees to save disk space. 
 
-To allow value to be split and combined, transactions contain multiple inputs & outputs
+To allow value to be split and combined, transactions contain multiple inputs & outputs.
 
-the traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party
+The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party.
 
-a new system for electronic transactions without relying on trust
+
 
 ## a)
 Here we go! I'm doing these levels in the virtual Debian machine installed last week.
