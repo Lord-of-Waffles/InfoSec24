@@ -13,6 +13,7 @@
 ## x)
 
 ### Broken Access Control
+Number 1 in OWASP's 2021 top 10 is Broken Access Control
 
 ### Security Misconfiguration
 
@@ -25,6 +26,7 @@
 No report needed!
     
 ## b)
+Alright, let's get started.
 
 ## c)
 
