@@ -106,7 +106,7 @@ A quick reboot and all up to date!
 
 
 ## d)
-Next up was SQLZoo. I've done the Haaga-Helia databases courses but my SQL was a bit rusty so this was a good warmup for part m).
+Next up was SQLZoo. I've done the Haaga-Helia databases courses but my SQL was a bit rusty so this was a good warmup for parts e) & m).
 ### 0 SELECT basics
 Pretty simple, I got the correct results with the queries:
 ```
@@ -187,8 +187,9 @@ WHERE name LIKE '%a%'
 
 This was a fun assignment!
 ## e)
-Alright, time for some *hacking*
-In all seriousness, nice to do some SQLi after just writing queries.
+Alright, time for some *hacking*.
+
+In all seriousness, it's nice to do some SQLi after just writing queries.
 Here's the starting screen:
 <img width="756" alt="image" src="https://github.com/user-attachments/assets/bcf3a80a-080d-44f4-b0eb-008a95668691">
 
@@ -199,9 +200,47 @@ I first investigated the site for any possible inputs but found none. I looked a
 A quick 'or 1=1' and we were in :)
 <img width="1246" alt="image" src="https://github.com/user-attachments/assets/b9b1f248-fcfe-40ab-9cec-79ec0ca4e62a">
 
-
+Really cool, enjoyed this one.
 ## m)
+Aaaaalright. This one was the longest one by far. 
 ## n)
+
+For the next PortSwigger labs, I decided to do one more SQLi lab:
+
+<img width="835" alt="image" src="https://github.com/user-attachments/assets/e6c4b149-fcb5-454e-8542-776a8e7fdb36">
+
+<img width="1268" alt="image" src="https://github.com/user-attachments/assets/899b167e-7f0f-495a-aacc-e10a780ab3b6">
+
+And we're done! Interrupting the query with a comment to bypass the password worked :)
+
+Next I moved on to a few cross site scripting labs:
+
+<img width="852" alt="image" src="https://github.com/user-attachments/assets/2cdbee41-4213-4f1b-9052-f83ad83a90d2">
+
+Finally I can input directly on the page!
+
+<img width="973" alt="image" src="https://github.com/user-attachments/assets/065bd61b-5710-40cc-a244-d588847c72da">
+
+Result:
+
+<img width="897" alt="image" src="https://github.com/user-attachments/assets/6573c8be-7e4f-4e89-b5e7-7e74be199c26">
+
+Alright, time for the last lab for this report:
+
+<img width="842" alt="image" src="https://github.com/user-attachments/assets/a6afafd6-474d-4f9d-a31d-b52e1069e907">
+
+Viewing a post on the site reveals the opportunity to add a comment, which will be our attack vector:
+
+<img width="893" alt="image" src="https://github.com/user-attachments/assets/d2c3b89c-2e0c-4a3a-ab93-96be90ef1228">
+
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/f3749161-c748-45f5-85bd-1ba1d574f442">
+
+After some creative writing we're done. It didn't like my website address, so I just removed it and it worked :)
+
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/b376a21d-b22e-472c-ac04-48b9d2dd9ea4">
+
+This was a really fun exercise! I've liked this week's homework a lot since it's been more hands-on.
+
 ## o)
 
 ## Sources
