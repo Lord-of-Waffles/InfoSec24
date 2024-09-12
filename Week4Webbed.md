@@ -261,9 +261,14 @@ to
 SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
 ```
 
-I had absolutely no idea what I was doing, so Reddit to the rescue. One hexadecimal value = 4 bits of data, and one base64 value = 6 bits of data. What I need is to decode into binary, then encode into base64! Like so:
+I had absolutely no idea what I was doing, so stackoverflow to my rescue. Python has a base64 library for encoding and decoding (thank god), so the answer is relatively simple:
 
 ```
+from base64 import b64encode
+
+the_string = "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d"
+the_result = b64encode(bytes.fromhex(the_string))
+print(the_result)
 ```
 
 
