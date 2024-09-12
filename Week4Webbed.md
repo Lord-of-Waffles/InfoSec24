@@ -249,19 +249,8 @@ so this seemed like a good challenge and a good opportunity to improve! In progr
 
 I'm currently learning Python, and it's been my favourite language *by far*, so I'll be doing these exercises in Python. For this week I'm doing set 1.
 ### Challenge 1
-Convert string 
 
-```
-49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d
-```
-
-to
-
-```
-SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
-```
-
-I had absolutely no idea what I was doing, so stackoverflow to my rescue. Python has a base64 library for encoding and decoding (thank god), so the answer is relatively simple:
+I had absolutely no idea what I was doing, so stackoverflow to the rescue. Python has a base64 library for encoding and decoding (thank god), so the answer is relatively simple:
 
 ```
 from base64 import b64encode
@@ -271,7 +260,30 @@ the_result = b64encode(bytes.fromhex(the_string))
 print(the_result)
 ```
 
+### Challenge 2
+
+This one was a bit harder. I had to look up how to do XOR in Python, but I got there in the end!
+```
+import binascii
+
+def fixed_XOR():
+    s = "1c0111001f010100061a024b53535009181c"
+    x = "686974207468652062756c6c277320657965"
+
+    s_bytes = bytes.fromhex(s)
+    x_bytes = bytes.fromhex(x)
+    result = bytes([b1 ^ b2 for b1, b2 in zip(s_bytes, x_bytes)])
+    result_hex = binascii.hexlify(result).decode('utf-8')
+
+    return result_hex
+ 
+print(fixed_XOR())
+```
+### Challenge 3
+It's at this point I realised I was knee deep in something I really didn't understand well enough. I did not understand the base level needed here at all, so I needed some help. Not to just see the answer and move on, but rather to actually understand and learn what was happening.
+
 
 
 
 ## Sources
+https://cedricvanrompay.gitlab.io/cryptopals/challenges/01-to-08.html
