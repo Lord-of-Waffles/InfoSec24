@@ -242,5 +242,22 @@ After some creative writing we're done. It didn't like my website address, so I 
 This was a really fun exercise! I've liked this week's homework a lot since it's been more hands-on.
 
 ## o)
+Last assignment! Let's get it done:
+
+First up was to read Maciej Ceglowski's blog post. I related to some of the points he made in the post, as while I really like programming, I'm not some 9000 IQ Mensa's A-list genius when it comes to math,
+so this seemed like a good challenge and a good opportunity to improve! In programming courses, math-based exercises have usually been the hardest for me.
+
+I'm currently learning Python, and it's been my favourite language *by far*, so I'll be doing these exercises in Python. For this week I'm doing set 1.
+### Challenge 1
+Convert string 
+```
+49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d
+``` to
+```
+SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
+```
+
+
+
 
 ## Sources
