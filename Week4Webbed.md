@@ -106,7 +106,86 @@ A quick reboot and all up to date!
 
 
 ## d)
+Next up was SQLZoo. I've done the Haaga-Helia databases courses but my SQL was a bit rusty so this was a good warmup for part m).
+### 0 SELECT basics
+Pretty simple, I got the correct results with the queries:
+```
+SELECT population
+FROM world
+WHERE name = 'Germany';
 
+SELECT name, population
+FROM world
+WHERE name IN ('Sweden', 'Norway', 'Denmark');
+
+SELECT name, area
+FROM world
+WHERE area BETWEEN 200000 AND 250000;
+```
+### 2 SELECT from WORLD
+This was fun! It was nice getting to write some queries again after a while :)
+Here's what I wrote:
+
+```
+SELECT name, continent, population
+FROM world;
+
+SELECT name
+FROM world
+WHERE population >= 200000000;
+
+SELECT name, population / gdp AS per_capita_GDP
+FROM world
+WHERE population >= 200000000;
+
+SELECT name, population / 1000000 AS pop_in_millions
+FROM world
+WHERE continent = 'South America';
+
+SELECT name, population
+FROM world
+WHERE name IN ('France', 'Germany', 'Italy');
+
+SELECT name
+FROM world
+WHERE name LIKE 'United%';
+
+SELECT name, population, area
+FROM world
+WHERE population >= 250000000 OR area > 3000000;
+
+SELECT name, population, area
+FROM world
+WHERE population >= 250000000 XOR area > 3000000;
+
+SELECT name, round(population/1000000) AS population,
+             round(gdp/1000000000) AS GDP
+FROM world
+WHERE continent = 'South America';
+
+SELECT name, round(gdp/population, -3) as per_capita_gdp
+FROM world
+WHERE gdp > 1000000000000;
+
+SELECT name, capital
+FROM world
+WHERE length(name) LIKE length(capital);
+
+SELECT name, capital
+FROM world
+WHERE LEFT(name,1) LIKE LEFT(capital,1) AND name <> capital;
+
+SELCT name
+FROM world
+WHERE name LIKE '%a%'
+      AND name LIKE '%e%'
+      AND name LIKE '%i%'
+      AND name LIKE '%o%'
+      AND name LIKE '%u%'
+      AND name NOT LIKE '% %';
+```
+
+This was a fun assignment!
 ## e)
 
 ## Sources
