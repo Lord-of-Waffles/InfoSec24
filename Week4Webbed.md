@@ -250,11 +250,20 @@ so this seemed like a good challenge and a good opportunity to improve! In progr
 I'm currently learning Python, and it's been my favourite language *by far*, so I'll be doing these exercises in Python. For this week I'm doing set 1.
 ### Challenge 1
 Convert string 
+
 ```
 49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d
-``` to
+```
+
+to
+
 ```
 SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
+```
+
+I had absolutely no idea what I was doing, so Reddit to the rescue. One hexadecimal value = 4 bits of data, and one base64 value = 6 bits of data. What I need is to decode into binary, then encode into base64! Like so:
+
+```
 ```
 
 
