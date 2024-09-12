@@ -187,5 +187,21 @@ WHERE name LIKE '%a%'
 
 This was a fun assignment!
 ## e)
+Alright, time for some *hacking*
+In all seriousness, nice to do some SQLi after just writing queries.
+Here's the starting screen:
+<img width="756" alt="image" src="https://github.com/user-attachments/assets/bcf3a80a-080d-44f4-b0eb-008a95668691">
+
+After logging in, we're greeted by a mock website's home page:
+<img width="1269" alt="image" src="https://github.com/user-attachments/assets/b0348209-8057-402c-a62e-2ea591b55d0b">
+
+I first investigated the site for any possible inputs but found none. I looked at the URL and realised it had a category= field meaning that the displayed page was coming from the url!
+A quick 'or 1=1' and we were in :)
+<img width="1246" alt="image" src="https://github.com/user-attachments/assets/b9b1f248-fcfe-40ab-9cec-79ec0ca4e62a">
+
+
+## m)
+## n)
+## o)
 
 ## Sources
