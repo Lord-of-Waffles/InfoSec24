@@ -117,15 +117,27 @@ Pretty simple stuff, but a nice introduction to there are more to websites than 
 ## c)
 Okie doke, time for an upgrade:
 Instead of writing
-    sudo apt-get update
+
+```
+sudo apt-get update
+```
+
 I accidentally wrote
-    sudo apt-get upgrade
+
+```
+sudo apt-get upgrade
+```
+
 Which basically automatically updated all the required software instead of first fetching me a list of updates before choosing to upgrade. Whoops!
 Anyway, while that was going I went to make myself some coffe, and after a few minutes it was done:
 <img width="639" alt="image" src="https://github.com/user-attachments/assets/78383b4e-6fd0-40ac-85f5-38563fff1d4d">
 
 Next it was time for the OS upgrade:
-    sudo apt-get dist-upgrade
+
+```
+sudo apt-get dist-upgrade
+```
+
 This was much quicker
 <img width="804" alt="image" src="https://github.com/user-attachments/assets/25bcc271-375f-48f9-87c7-3c5865377351">
 
