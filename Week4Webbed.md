@@ -84,7 +84,24 @@ the more people will be poking holes into it to see where it's at its weakest.
 No report needed!
     
 ## b)
-Alright, let's get started.
+Alright, let's get started. While running WebGoat I disconnected my computer from the internet as suggested.
+![image](https://github.com/user-attachments/assets/1b86a23a-d7b5-470f-852a-def0de4b35fa)
+
+These exercises were about using the browser's developer tools to complete the assignments. The instructions were for Chrome but everything worked fine in Firefox.
+![image](https://github.com/user-attachments/assets/a5effa65-228c-4cd2-9774-7d5cd460e11d)
+
+The first assignment was simply calling a function
+![image](https://github.com/user-attachments/assets/1cf2fae8-6ff3-471e-b400-3414d92a0dbe)
+
+And the second one was finding the correct answer by tracking network traffic in the dev tools
+
+![image](https://github.com/user-attachments/assets/21464040-3a82-4f27-9940-4df969f028f9)
+
+Pretty simple stuff, but a nice introduction to there are more to websites than meets the eye ;)
+
+
+
+
 
 ## c)
 Okie doke, time for an upgrade:
@@ -202,7 +219,21 @@ A quick 'or 1=1' and we were in :)
 
 Really cool, enjoyed this one.
 ## m)
-Aaaaalright. This one was the longest one by far. 
+I wasn't quite sure about what parts of the Injection chapter in WebGoat we should do here since there was a section in the tips of this week's homework about doing only the introduction part but for b)?
+Anyway, I decided to do the Intro, Advanced and XSS sections.
+
+The Intro part wasn't too hard. I enjoyed the exercises (they ended up being good practice for later) and got through it rather quickly 
+![image](https://github.com/user-attachments/assets/6fb98c4b-adf4-45a1-9fb8-e7ef8e1544b4)
+
+It was at the advanced part that it got difficult. I solved the majority of them on my own, but for the last one I had to look up some help.
+With a lot of these assignments in WebGoat and PortSwigger, when I checked how others had completed them they were using different tools like burp suite etc to track how information was moving between the front & back-end of the site, but I was just doing everything directly on the site. 
+
+![image](https://github.com/user-attachments/assets/e59648ba-b071-4d7d-af0f-8170cb1519b5)
+
+I was kind of done with SQL for this week so decided to use the XSS portions, skipping from mitigation. These exercises turned to be kind of similar to the portswigger ones, so trying to find any kind of input field where the data wasn't filtered before being interpreted.
+
+All in all a bit more theory than PortSwigger but still fun!
+
 ## n)
 
 For the next PortSwigger labs, I decided to do one more SQLi lab:
@@ -247,7 +278,7 @@ Last assignment! Let's get it done:
 First up was to read Maciej Ceglowski's blog post. I related to some of the points he made in the post, as while I really like programming, I'm not some 9000 IQ Mensa's A-list genius when it comes to math,
 so this seemed like a good challenge and a good opportunity to improve! In programming courses, math-based exercises have usually been the hardest for me.
 
-I'm currently learning Python, and it's been my favourite language *by far*, so I'll be doing these exercises in Python. For this week I'm doing set 1.
+I'm currently learning Python, and it's been my favourite language *by far*, so I'll be doing these exercises in Python. For this week I did the first 2 assignments for set 1. I wasn't sure if we have to the whole set but as I had a bit of a busy week and this report was already long enough I thought it'd be fine :)
 ### Challenge 1
 
 I had absolutely no idea what I was doing, so stackoverflow to the rescue. Python has a base64 library for encoding and decoding (thank god), so the answer is relatively simple:
@@ -279,11 +310,6 @@ def fixed_XOR():
  
 print(fixed_XOR())
 ```
-### Challenge 3
-It's at this point I realised I was knee deep in something I really didn't understand well enough. I did not understand the base level needed here at all, so I needed some help. Not to just see the answer and move on, but rather to actually understand and learn what was happening.
-
-
-
 
 ## Sources
 https://cedricvanrompay.gitlab.io/cryptopals/challenges/01-to-08.html
