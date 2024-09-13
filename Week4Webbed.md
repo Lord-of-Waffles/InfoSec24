@@ -8,10 +8,13 @@
 -  [c)](#c)
 -  [d)](#d)
 -  [e)](#e)
+-  [m)](#m)
+-  [n)](#n)
+-  [n)[(#n)
 -  [Sources](#Sources)
 
 ## x)
-This assignment covers some of the most important security risks in OWASP's Top 10 (2021)
+This segment covers some of the most important security risks in OWASP's Top 10 (2021)
 ### Broken Access Control
 Number 1 in OWASP's 2021 top 10 is Broken Access Control.
 
@@ -30,6 +33,8 @@ Here a few steps to prevent it:
   
 *Attack example*
 
+An application uses unverified data in a SQL query that accesses account info. Modifying the browsers parameter for the type of account can allow an attacker access due to data not being filtered.
+
 ### Injection
 Moving on to number 2: Injection.
 
@@ -44,8 +49,12 @@ One option is to use a safe API, avoiding using the interpreter entirely.
 Another is to sanitise data so that no user inputted data is passed to the interpreter.
 
 *Attack example*
+
+```
 String query = "Select \* FROM accounts WHERE custID=' " + request.getParameter("id") + "'";
-Due to concatenating unfiltered user inputted data this query is vulnerable to injection which can lead to sever consequences.
+```
+
+Due to concatenating unfiltered user inputted data this query is vulnerable to injection which can lead to severe consequences.
 
 ### Security Misconfiguration
 Next on the list is number 5: Security Misconfiguration.
@@ -63,6 +72,8 @@ incorrectly configured permissions on a cloud service.
 
 *Attack example*
 
+A cloud service provider has default sharing permissionsopen to the internet by other users, allowing sensitive data stored in the cloud to be accessed unintentionally.
+
 ### Vulnerable & Outdated Components
 Finally, number 6: Vulnerable & Outdate Components.
 *What it means*
@@ -77,7 +88,7 @@ the more people will be poking holes into it to see where it's at its weakest.
 
 *Attack example*
 
-
+Components in software typically have the same base level of privilege as if they were within the app. Accidental coding errors or intentional backdoors provide vectors for attacks.
 
 ## a)
 
@@ -202,7 +213,7 @@ WHERE name LIKE '%a%'
       AND name NOT LIKE '% %';
 ```
 
-This was a fun assignment!
+This was a fun assignment! I only realised afterwards that I think you only had to do the first 2 tasks. Whoops.
 ## e)
 Alright, time for some *hacking*.
 
@@ -312,4 +323,8 @@ print(fixed_XOR())
 ```
 
 ## Sources
-https://cedricvanrompay.gitlab.io/cryptopals/challenges/01-to-08.html
+BentleySec, 2024: https://bentleysec.com/webgoat/Injection_advanced.html
+Karvinen, 2023: https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
+Karvinen, 2024: https://terokarvinen.com/information-security/#h4-webbed
+OWASP, 2021: https://owasp.org/Top10/
+Rompay, 2024: https://cedricvanrompay.gitlab.io/cryptopals/challenges/01-to-08.html
