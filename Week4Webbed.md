@@ -336,7 +336,11 @@ print(fixed_XOR())
 
 ## Sources
 BentleySec, 2024: https://bentleysec.com/webgoat/Injection_advanced.html
+
 Karvinen, 2023: https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
+
 Karvinen, 2024: https://terokarvinen.com/information-security/#h4-webbed
+
 OWASP, 2021: https://owasp.org/Top10/
+
 Rompay, 2024: https://cedricvanrompay.gitlab.io/cryptopals/challenges/01-to-08.html
