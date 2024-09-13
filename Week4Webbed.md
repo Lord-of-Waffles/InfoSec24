@@ -78,7 +78,7 @@ A cloud service provider has default sharing permissionsopen to the internet by 
 Finally, number 6: Vulnerable & Outdate Components.
 *What it means*
 Related to the previous item, the more pieces there are in a (security) puzzle, the harder it is to get the full picture.
-If you're system is utilising a bunch of components from different sources, they are likely to not have been built to the same standard of security or even be up to date.
+If your system is utilising a bunch of components from different sources, they are likely to not have been built to the same standard of security or even be up to date.
 
 *How to prevent it*
 
