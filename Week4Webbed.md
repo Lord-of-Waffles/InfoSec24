@@ -129,7 +129,7 @@ sudo apt-get upgrade
 ```
 
 Which basically automatically updated all the required software instead of first fetching me a list of updates before choosing to upgrade. Whoops!
-Anyway, while that was going I went to make myself some coffe, and after a few minutes it was done:
+Anyway, while that was going I went to make myself some coffee, and after a few minutes it was done (the update, not the coffee):
 <img width="639" alt="image" src="https://github.com/user-attachments/assets/78383b4e-6fd0-40ac-85f5-38563fff1d4d">
 
 Next it was time for the OS upgrade:
