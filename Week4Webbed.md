@@ -108,7 +108,7 @@ And the second one was finding the correct answer by tracking network traffic in
 
 ![image](https://github.com/user-attachments/assets/21464040-3a82-4f27-9940-4df969f028f9)
 
-Pretty simple stuff, but a nice introduction to there are more to websites than meets the eye ;)
+Pretty simple stuff, but a nice introduction to the fact that there are more to websites than meets the eye ;)
 
 
 
