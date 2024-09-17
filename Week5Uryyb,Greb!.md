@@ -17,6 +17,11 @@
 -  [Sources](#Sources)
 
 ## x)
+
+### Applied Cryptography
+
+### PGP - Send Encrypted and Signed Message - gpg
+
 ## a)
 ## b)
 ## m)
@@ -29,3 +34,5 @@
 ## t)
 ## u)
 ## Sources
+https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+Schneier 2015: Applied Cryptography: 1. Foundations
