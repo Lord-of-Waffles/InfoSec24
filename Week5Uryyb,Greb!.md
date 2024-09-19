@@ -123,6 +123,33 @@ All in all, informative, but quite long.
 
 ### PGP - Send Encrypted and Signed Message - gpg
 
+The next part of this assignment summarises Tero's article on utilising PGP for encrypted communications.
+Since this is a summary of the article I chose to not include all the CLI commands as that would just be copying the article.
+
+The articles walks through the steps to set up encrypted comms between Alice & Tero.
+
+The first step is to create the first user's (Tero) keypair, meaning PGP uses asymmetric encryption.
+
+This is done by installing the GPG or GNU Privacy Guard software, and having it generate the keypair.
+
+So in order for Alice to be able to send a message to Tero, she needs Tero's public key, meaning it needs to be exported. This is achieved with GPG.
+They key can be viewed with a command, and it is in ASCII armour, a type of encryption, further encoded into base64.
+
+For this article, Alice is simulated. This could be done by creating a different user on the OS, or by using another computer, but for the sake of simplicity Alice is simulated with a folder. I would feel pretty miserable if my entire existence could be relegated to being a directory, so I hope Alice at least has a positive outlook on the situation.
+
+The next step is to generate a keypair for Alice using GPG. Now that both parties are ready to talk it's time to introduce them to each other.
+
+The article goes on to explain that a public key is quite literally public. They can be found on webpages, unencrypted emails, basically anywhere you can share information. 
+Tero's previously generated public key is imported into Alice (that sounds uncomfortable) and now the not-so-sentient folder is able to encrypt messages with it.
+The Alice-folder can check if the key is legitimate by checking the key's fingerprint (or digital signature). This may be a good idea if the key has been received via insecure channels such as an unencrypted email. Alice then signs Tero's key to mark it as trusted, ensuring communications work.
+
+Trust goes both ways, so now Tero has to repeat this process of importing Alice's exported key, verifying it and signing it. Trust: acquired, and now the pair have each other's keys and have verified they are legitimate. Now they can finally gossip in peace!
+
+Alice wants to give Tero the local tea, so she writes out her message in plaintext and encrypts it using Tero's public key. Due to this being asymmetric encryption, the message can now only be decrypted by using Tero's private key. The message begins with **----BEGIN PGP MESSAGE----**, and ends with **----END PGP MESSAGE----**. Since the message is encrypted it can be sent over untrusted channels safely. Alice gives Tero the encrypted message, and Tero decrypts it with his private key.
+
+The rest of the article is solutions for various possible problems. A good read, now on to the hands-on tasks.
+
+
 ## a)
 ## b)
 ## m)
