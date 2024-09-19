@@ -210,6 +210,13 @@ I find it interesting that a majority of the first half of the most frequent let
 ## p)
 ## q)
 ## r)
+
+I chose to look at the certificate for my own website for this task. Now to whomever is reading this, please don't go look at it! (reverse psychology and all that, I know, but I'm being sincere)
+My website (as of September 2024, I'm in the process of remaking it currently) is currently quite dated, as I originally made it when I was just starting to learn HTML & CSS. Anyway, here's the certificate:
+<img width="542" alt="image" src="https://github.com/user-attachments/assets/73e08d50-39a0-4837-adcf-3980c183fa43">
+
+The current certificate expires on the 1st of December, 2024. There's 2 fingerprints here, one for the certificate and one for the private key.
+
 ## s)
 ## t)
 ## u)
