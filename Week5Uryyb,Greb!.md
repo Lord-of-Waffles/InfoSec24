@@ -294,7 +294,7 @@ HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA 
 
 TDAT'S TT. YOU'RE AOR OSSTOTAJJY A OOQENREALER! AS YOU SEE, STGPJE SUNSTTTUTTOA OTPDERS OAA NE NROLEA RTTD SREEUEAOY AAAJYSTS. SEE YOU AT DTTP://TEROLARCTAEA.OOG
 
-The url is clearly Tero's website (terokarvinen.com), so O = C,  W = O & G = M.
+The url is clearly Tero's website (terokarvinen.com), so not a .org domain. This means O = C,  W = O & G = M.
 
 I added newly decoded letters to the program to crack the message even further, and kept this up until I decoded the whole plaintext.
 
