@@ -238,21 +238,65 @@ ciphertext = "HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI
 
 def occurrences():
     filtered_text = ''.join(ciphertext.split())
-    highest_count = 0
-    highest_char = ''
-    for i in range(len(filtered_text)):
-        current_char_count = filtered_text.count(filtered_text[i])
-        if current_char_count > highest_count:
-            highest_count = current_char_count
-            highest_char = filtered_text[i]
-    print(f"The character '{highest_char}' appears the most with {highest_count} occurrences.")
-occurrences()
+    counter = Counter(filtered_text)
+    most_common_chars = counter.most_common(6)
+    for char, count in most_common_chars:
+        print(f"The character '{char}' appears {count} times.")
+    return [char for char, count in most_common_chars]
 ```
-This code provides the most common characters, 'I', with 16 occurrences (ignores whitespace)
+This code provides the most common characters. In order of frequency, I H M B T W.
 
-Replacing every instance of I with E results in:
-HDMH'B TH. KWU'YE AWR WSSTOTMJJK M OWQENYEMLEY! MB KWU BEE, BTGPJE BUNBHTHUHTWA OTPDEYB OMA NE NYWLEA RTHD SYEEUEAOK MAMJKBTB. BEE KWU MH DHHP://HEYWLMYCTAEA.OWG
-Not much clearer to be honest. So where is I in relation to E in the English alphabet? I is 4 characters ahead. So what happens if we move substitute every character 4 characters back?
+Replacing these characters in the string with ETAOIN gives us:
+
+IDAI'O II. KNU'YE ANR NSSIOIAJJK A ONQENYEALEY! AO KNU OEE, OIGPJE OUNOIIIUIINA OIPDEYO OAA NE NYNLEA RIID SYEEUEAOK AAAJKOIO. OEE KNU AI DIIP://IEYNLAYCIAEA.ONG
+
+Comparing these 2 strings, I'm quite sure the last portion is "at http://(something).org"
+
+So ETAOIN wasn't it, but it helped a bit.
+This is just estimating at this point but in C I believe:
+M = A
+H = T
+B = S
+G = G
+O = O
+Y = R
+I = E
+K = Y
+W = O
+
+Let's test it out!
+```
+def new_replacement():
+    replacements = {
+        'M': 'A',
+        'H': 'T',
+        'B': 'S',
+        'Y': 'R',
+        'I': 'E',
+        'K': 'Y',
+        'W': 'O'
+    }
+    replaced_text = ciphertext
+    for old_char, new_char in replacements.items():
+        replaced_text = replaced_text.replace(old_char, new_char)
+    print(replaced_text)
+
+new_replacement()
+```
+and we get:
+TDAT'S TT. YOU'RE AOR OSSTOTAJJY A OOQENREALER! AS YOU SEE, STGPJE SUNSTTTUTTOA OTPDERS OAA NE NROLEA RTTD SREEUEAOY AAAJYSTS. SEE YOU AT DTTP://TEROLARCTAEA.OOG
+Wow! Not quite there yet, but it seems like my hunch was correct.
+Here are the two strings next to each other for comparison:
+
+HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG
+TDAT'S TT. YOU'RE AOR OSSTOTAJJY A OOQENREALER! AS YOU SEE, STGPJE SUNSTTTUTTOA OTPDERS OAA NE NROLEA RTTD SREEUEAOY AAAJYSTS. SEE YOU AT DTTP://TEROLARCTAEA.OOG
+
+The url is clearly Tero's website (terokarvinen.com), so O = C,  W = O & G = M.
+
+O is 12 positions ahead of C, but W is 8 positions ahead of O. G is  Doesn't seem like there's a uniform logic here.
+
+
+
 
 
 ## t)
