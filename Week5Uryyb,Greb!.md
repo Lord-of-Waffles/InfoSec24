@@ -265,6 +265,22 @@ And done! I chose Age based on recommendations online. Honestly, it was a lot le
 
 
 ## n)
+
+For this assignment, I thought I'd bug my friend and asked him to be the other party. Since he's on Windows and I didn't want to make him download any additional programs, I chose to use SSH.
+
+First I made my own keypair:
+
+<img width="489" alt="image" src="https://github.com/user-attachments/assets/632ef0c5-cbc3-44be-8d72-542717fc6368">
+
+Sent him instructions to do the same:
+
+<img width="164" alt="image" src="https://github.com/user-attachments/assets/3cf68d27-30f7-4330-8dfc-b11401b5388d">
+
+
+
+
+
+
 ## o)
 
 After some quick googling, I found a website that has the letter frequency for a bunch of languages! I'm studying French, so here's its letter frequency:
