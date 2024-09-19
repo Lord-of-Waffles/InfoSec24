@@ -219,6 +219,51 @@ Some pretty nifty software! Access to it on my computer protected by a password.
 Password managers help against pwning attacks. Additionally, a lot of people use simple memorable passwords for websites which are easy to remember, but also easy to crack. No normal person will remember these ridiculously complex generated passwords by MacPass, so users don't end up reusing the same memorable passwords across multiple websites!
 
 ## m)
+
+For this section is chose to try Age, which is a recent program which performs the same function of gpg
+
+```
+brew install age
+```
+First up, create a public key:
+
+<img width="529" alt="image" src="https://github.com/user-attachments/assets/321fb4ab-ffeb-4bca-af9d-175c34c9e5dc">
+
+You can see your private key by running the command
+
+```
+cat key.txt
+```
+
+Next I created a message file, age_message.txt:
+
+<img width="557" alt="image" src="https://github.com/user-attachments/assets/ac2ec314-a85e-45c4-8060-0c5be68571d2">
+
+In Age, you need to have a recipient before encryption is possible. 
+
+I went back to trusty Bubbles to be my partner once more, and created him a public key too:
+
+<img width="536" alt="image" src="https://github.com/user-attachments/assets/1d932f89-7f52-4667-b0ee-3bb0167c3e5a">
+
+Then I go back to my desktop to encrypt a message for Bubbles:
+
+<img width="779" alt="image" src="https://github.com/user-attachments/assets/b1661265-e159-47f8-8bd0-22fb23a943a2">
+
+It creates an encrypted file, with an additional extension of .age:
+<img width="389" alt="image" src="https://github.com/user-attachments/assets/0e6e5b71-7d35-4382-8eca-cb506269d069">
+
+To decrypt the file, I need Bubbles' private key:
+
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/5f381e6d-8529-4617-bc94-f7573612b5c4">
+
+I quickly moved over Bubbles' key file to the desktop to use and then it was simply a matter of decrypting the message:
+
+<img width="537" alt="image" src="https://github.com/user-attachments/assets/151036c6-9d4b-4247-8db9-d70b2083fe9b">
+
+And done! I chose Age based on recommendations online. Honestly, it was a lot less fiddly then gpg. It felt a lot more accessible compared to gpg with simpler logic.
+
+
+
 ## n)
 ## o)
 
@@ -414,3 +459,7 @@ Schneier 2015: Applied Cryptography: 1. Foundations
 https://github.com/MacPass/MacPass/releases/tag/0.8.1
 
 https://letterfrequency.org/letter-frequency-by-language/
+
+https://htmlpreview.github.io/?https://github.com/FiloSottile/age/blob/main/doc/age.1.html
+
+https://tech.serhatteker.com/post/2022-12/encrypt-and-decrypt-files-with-ssh-part-4/
