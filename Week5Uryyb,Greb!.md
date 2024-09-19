@@ -218,6 +218,39 @@ My website (as of September 2024, I'm in the process of remaking it currently) i
 The current certificate expires on the 1st of December, 2024. There's 2 fingerprints here, one for the certificate and one for the private key.
 
 ## s)
+
+Let's crack this cipher. The tips give us some info:
+- M is in English
+- Likely a simple substitution cipher
+- Apparently not a caesar cipher or rot13. Caesar is X replaced by (X -> 3Y) in an array of 26, rot13 is just X replaced by (X -> 13Y).
+
+Here's the ciphertext:
+HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG
+
+Just looking at this string, it's clear the last part of this is a url. It seems like special characters such as . , / : ' are not included here.
+
+Now I **could** do this on pen and paper, but I'm lazy. Everyone knows that peak efficiency is writing code to automate a problem instead of just solving the problem, so Python to the rescue.
+
+First, find the most frequent letter. 
+
+```
+ciphertext = "HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG"
+
+def occurrences():
+    filtered_text = ''.join(ciphertext.split())
+    highest_count = 0
+    highest_char = ''
+    for i in range(len(filtered_text)):
+        current_char_count = filtered_text.count(filtered_text[i])
+        if current_char_count > highest_count:
+            highest_count = current_char_count
+            highest_char = filtered_text[i]
+    print(f"The character '{highest_char}' appears the most with {highest_count} occurrences.")
+occurrences()
+```
+This code provides the most common characters, 'I', with 16 occurrences (ignores whitespace)
+
+
 ## t)
 ## u)
 ## Sources
