@@ -296,16 +296,77 @@ TDAT'S TT. YOU'RE AOR OSSTOTAJJY A OOQENREALER! AS YOU SEE, STGPJE SUNSTTTUTTOA 
 
 The url is clearly Tero's website (terokarvinen.com), so O = C,  W = O & G = M.
 
-O is 12 positions ahead of C, but W is 8 positions ahead of O. G is  Doesn't seem like there's a uniform logic here.
+I added newly decoded letters to the program to crack the message even further, and kept this up until I decoded the whole plaintext.
 
+Done! The decrypted plaintext is:
 
+THAT'S IT. YOU'RE NOW OFFICIALLY A CODEBREAKER! AS YOU SEE, SIMPLE SUBSTITUTION CIPHERS CAN BE BROKEN WITH FREQUENCY ANALYSIS. SEE YOU AT HTTP://TEROKARVINEN.COM
 
+Here's the program in it's finished state, with all the functions used to crack this:
 
+```
+from collections import Counter
+
+ciphertext = "HDMH'B TH. KWU'YI AWR WSSTOTMJJK M OWQINYIMLIY! MB KWU BII, BTGPJI BUNBHTHUHTWA OTPDIYB OMA NI NYWLIA RTHD SYIEUIAOK MAMJKBTB. BII KWU MH DHHP://HIYWLMYCTAIA.OWG"
+
+def occurrences():
+    filtered_text = ''.join(ciphertext.split())
+    counter = Counter(filtered_text)
+    most_common_chars = counter.most_common(6)
+    for char, count in most_common_chars:
+        print(f"The character '{char}' appears {count} times.")
+    return [char for char, count in most_common_chars]
+
+def replacement():
+    most_common_chars = occurrences()
+    replacements = ['E', 'T', 'A', 'O', 'I', 'N']
+    replaced_text = ciphertext
+    for i, char in enumerate(most_common_chars):
+        replaced_text = replaced_text.replace(char, replacements[i])
+    print(replaced_text)
+
+replacement()
+
+def new_replacement():
+    replacements = {
+        'M': 'A',
+        'H': 'T',
+        'B': 'S',
+        'Y': 'R',
+        'I': 'E',
+        'K': 'Y',
+        'W': 'O',
+        'A': 'N',
+        'C': 'V',
+        'D': 'H',
+        'G': 'M',
+        'L': 'K',
+        'O': 'C',
+        'T': 'I',
+        'J': 'L',
+        'R': 'W',
+        'S': 'F',
+        'Q': 'D',
+        'N': 'B',
+        'E': 'Q'
+    }
+    replaced_text = list(ciphertext)
+    for i, char in enumerate(replaced_text):
+        if char in replacements:
+            replaced_text[i] = replacements[char]
+    replaced_text = ''.join(replaced_text)
+    print(replaced_text)
+
+new_replacement()  
+```
 
 ## t)
 ## u)
 ## Sources
 https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+
 Schneier 2015: Applied Cryptography: 1. Foundations
+
 https://github.com/MacPass/MacPass/releases/tag/0.8.1
+
 https://letterfrequency.org/letter-frequency-by-language/
