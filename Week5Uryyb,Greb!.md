@@ -180,12 +180,29 @@ The command
 ```
 cp -v folder/folder.pub
 ```
-Just did not work.
+Just did not work. So I figured (already earlier with Linux, but doing this again) to just copy the file manually using the GUI into the parent folder, because the import command wouldn't work otherwise.
 
+<img width="453" alt="image" src="https://github.com/user-attachments/assets/bbc72029-caf1-4438-803b-36b1bd46b57d">
 
+AAAAA finally. Was stuck on this for way too long.
 
+<img width="446" alt="image" src="https://github.com/user-attachments/assets/ecbfb856-9b0f-4ebb-acfd-070c0c982b69">
 
+Signed, and ready. Time for the message:
 
+<img width="771" alt="image" src="https://github.com/user-attachments/assets/e24ebce7-a924-4638-a340-0952f2f15613">
+
+Message encrypted and ready to go:
+
+<img width="481" alt="image" src="https://github.com/user-attachments/assets/1125a3e0-a38c-4166-8607-b347b4b222cd">
+
+Again instead of using the command to copy the file, I did it manually by copying and dragging it to the correct folder.
+
+Moment of truth:
+
+<img width="742" alt="image" src="https://github.com/user-attachments/assets/34574637-b970-4ed2-b5c7-b6770d958b48">
+
+It worked! That's such a relief. I ended up pretty much doing this twice, which was a bit annoying, but the positive aspect of that is I got more practice in!
 
 
 
