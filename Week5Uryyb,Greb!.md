@@ -266,15 +266,30 @@ And done! I chose Age based on recommendations online. Honestly, it was a lot le
 
 ## n)
 
-For this assignment, I thought I'd bug my friend and asked him to be the other party. Since he's on Windows and I didn't want to make him download any additional programs, I chose to use SSH.
+For this assignment, I thought I'd bug my friend and asked him to be the other party. I thought we'd just use symmetrical encryption to make it more convenient.
 
-First I made my own keypair:
+I wrote out a message:
 
-<img width="489" alt="image" src="https://github.com/user-attachments/assets/632ef0c5-cbc3-44be-8d72-542717fc6368">
+<img width="778" alt="image" src="https://github.com/user-attachments/assets/e2687e6f-771c-4a71-bd7d-fa8c3ecf1a21">
 
-Sent him instructions to do the same:
+For the sake of simplicity, I encrypted it with rot13:
 
-<img width="164" alt="image" src="https://github.com/user-attachments/assets/3cf68d27-30f7-4330-8dfc-b11401b5388d">
+<img width="668" alt="image" src="https://github.com/user-attachments/assets/337bb365-fb55-4c03-8688-6f4827365289">
+
+Then I wrote him a a very chill email:
+
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/0c84d0ae-4bdf-4c8a-bb71-8fc4b1fe4b64">
+
+And I got a picture back confirming it arrived:
+
+![image](https://github.com/user-attachments/assets/b3450779-2d8f-410f-8de5-44d0fc53190c)
+
+He then decrypted the message, and here's the result:
+
+![image](https://github.com/user-attachments/assets/fca02d50-5d45-45d8-b637-bba344364eb4)
+
+This was a fun little exercise!
+
 
 
 
