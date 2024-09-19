@@ -151,30 +151,18 @@ The rest of the article is solutions for various possible problems. A good read,
 
 
 ## a)
-god damn it screw this i'm doing it later. keys and permissions keep getting messed up
+Okay, so initially I tried following along with Tero's guide, but my Linux was being very grumpy, so I chose to just do it on my Mac instead, whilst still trying to follow the guide as much as possible.
 
-Alright, time to try out PGP for myself.
-I decided to follow along with Tero's article, so detailed explanations can be found there for each step referenced in this section.
-
-<img width="673" alt="image" src="https://github.com/user-attachments/assets/25bddd35-2f68-42e4-85b1-3fdc694c3576">
-
-GPG installed, let's get encrypting!
-First step was to generate a keypair. I decided to follow Tero's example and use a dummy keypair with no security
-
-<img width="763" alt="image" src="https://github.com/user-attachments/assets/e71b2fe5-e53e-4e17-9b87-895388ad3de2">
-
-Here's the public key in ASCII armour, same as the article:
-
-<img width="672" alt="image" src="https://github.com/user-attachments/assets/5d11aa64-39d1-4f62-8c32-80d6accd9e49">
-
-Time to create myself a new friend. I'm listening to / half-watching Trailer Park Boys as I write this, so I decided to call the other party 'Bubbles'
-Keypair created for Bubbles:
+Downloaded gpg with Homebrew:
+```
+brew install gnupg
+```
+After the initial steps of creating a key I made sure it was working:
+<img width="464" alt="image" src="https://github.com/user-attachments/assets/41202ac5-e442-4a5b-83c8-e25a5e90bf49">
 
 
-My public key imported to Bubbles:
 
 
-Bubbles' key with ultimate trust and mine with full trust:
 
 
 
