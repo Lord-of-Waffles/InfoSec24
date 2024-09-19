@@ -51,14 +51,14 @@ There are 2 general types of key-based algorithms:
 1. Symmetric
 2. Public Key (also called asymmetric)
 
-Symmetric algorithms are algos where E can be calculated from D, and vice-versa. In most symmetrical algorithms, the keys are the same.
+Symmetrical algorithms are algos where E can be calculated from D, and vice-versa. In most symmetrical algorithms, the keys are the same.
 
 Furthermore, there are 2 typos of symmetrical algorithms:
 1. Stream algorithms/ciphers: Operate on a single bit/byte of P at a time
 2. Block algorithms/ciphers: Operate on groups of bits, called **blocks**
 
-Public key algorithms are designed so that the key used for E is different than the key used for D.
-In these systems, the key for E is called the **public key** and the key for D is called the **private key**.
+Public key algorithms are designed so that the key used for encryption is different than the key used for decryption.
+In these systems, the key for encryptiion is called the **public key** and the key for decryption is called the **private key**.
 
 Cryptanalysis is the science of recovering the plaintext of a message, without access to the key. The loss of a key through noncryptanalytic means is called a **compromise**, and an attempted cryptanalysis is called an **attack**.
 
@@ -77,7 +77,48 @@ In addition, there are 3 other less common attacks:
 
 The best algorithms are the ones that have been made public, been attacked by cryptographers for years and are still unbreakable.
 
-//finish later
+In general, there are different categories of breaking an algorithm:
+1. Total Break
+2. Global Deduction
+3. Instance (or local) Deduction
+4. Information Deduction
+
+An algorithm is considered **unconditionally secure** if, no matter how much ciphertext a cryptanalyst has, there is not enough information to recover the plaintext.
+Algorithms that cannot be broken with available resources, either current or future are considered **computationally secure**.
+
+You can measure the complexity of an attack in different ways:
+1. Data Complexity - The amount of data needed as input to the attack.
+2. Processing Complexity - The time needed to perform the attack. This is often called the **work factor**.
+3. Storage Requirements - The amount of money needed to do the attack.
+
+Good cryptosystems are designed to be infeasible to break with the computing power that is expected to evolve many years in the future. (Computationally secure)
+
+**Steganorgraphy** serves to hide secret messages in other messages, such that the secret's very existence is concealed.
+More recently, people are hiding secret messages in graphic images. Replace the least significant bit of each byte of the image with bits of the message (Mimic functions)
+I remember seeing these! Every now and then, social media accounts of game development studios use steganography in ARGs to build up hype for upcoming content, maybe the most famous one being the leadup to Sombra's release in Overwatch.
+
+Next some more historical cryptography:
+
+A **substitution cipher** is one in which each character in the plaintext is substituted for another character in the ciphertext. The receiver then inverts the substitution to decrypt the message.
+
+In classical cryptography, there are 4 types of substitution cyphers:
+1. Simple substitution cipher (or monoalphabetic cipher)
+2. Homophonic
+3. Polygram
+4. Polyalphabetic
+
+One famous substitution cipher is the **Caesar Cipher**, in which each plaintext character is replaced by the character three to the right modulo 26. So A -> D, B -> E etc.
+**Rot13** (rotation by 13 places) is another famous substitution cipher, a variant of the Caesar cipher. I'll go into more detail in the voluntary bonus featuring it.
+
+On the other hand, you have **transposition ciphers**, where the plaintext remains the same, but the order of characters is shuffled around.
+
+The chapter then details a few more classical cryptography methods such as rotor machines, the most famous of which was the **engima machine** used by the germans during WW2 to encrypt communications for U-Boat orders. 
+
+**XOR** or exclusive-or operation is a logical operator used in symmetrical algorithms for encryption but which is relatively easy to crack via brute force by counting occurrences.
+
+The final three short topics in the chapter detail one-time pads (an encryption scheme with randomly generated keys), some cryptographic algorithms used by computers (DES, RSA, DSA) and a short paragraph of the author showing their notation for large numbers with the probabilities of very improbable situations.
+
+All in all, informative, but quite long.
 
 
 ### PGP - Send Encrypted and Signed Message - gpg
