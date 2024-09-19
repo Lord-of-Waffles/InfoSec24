@@ -93,7 +93,7 @@ You can measure the complexity of an attack in different ways:
 
 Good cryptosystems are designed to be infeasible to break with the computing power that is expected to evolve many years in the future. (Computationally secure)
 
-**Steganorgraphy** serves to hide secret messages in other messages, such that the secret's very existence is concealed.
+**Steganography** serves to hide secret messages in other messages, such that the secret's very existence is concealed.
 More recently, people are hiding secret messages in graphic images. Replace the least significant bit of each byte of the image with bits of the message (Mimic functions)
 I remember seeing these! Every now and then, social media accounts of game development studios use steganography in ARGs to build up hype for upcoming content, maybe the most famous one being the leadup to Sombra's release in Overwatch.
 
@@ -406,7 +406,7 @@ Done! The decrypted plaintext is:
 
 THAT'S IT. YOU'RE NOW OFFICIALLY A CODEBREAKER! AS YOU SEE, SIMPLE SUBSTITUTION CIPHERS CAN BE BROKEN WITH FREQUENCY ANALYSIS. SEE YOU AT HTTP://TEROKARVINEN.COM
 
-Here's the program in it's finished state, with all the functions used to crack this:
+Here's the program in its finished state, with all the functions used to crack this:
 
 ```
 from collections import Counter
