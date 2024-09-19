@@ -250,6 +250,10 @@ occurrences()
 ```
 This code provides the most common characters, 'I', with 16 occurrences (ignores whitespace)
 
+Replacing every instance of I with E results in:
+HDMH'B TH. KWU'YE AWR WSSTOTMJJK M OWQENYEMLEY! MB KWU BEE, BTGPJE BUNBHTHUHTWA OTPDEYB OMA NE NYWLEA RTHD SYEEUEAOK MAMJKBTB. BEE KWU MH DHHP://HEYWLMYCTAEA.OWG
+Not much clearer to be honest. So where is I in relation to E in the English alphabet? I is 4 characters ahead. So what happens if we move substitute every character 4 characters back?
+
 
 ## t)
 ## u)
