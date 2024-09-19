@@ -361,6 +361,22 @@ new_replacement()
 ```
 
 ## t)
+
+Here's a quick python script to test rot13:
+```
+import codecs
+first_rot = codecs.encode('NEVERDECODEME', 'rot_13')
+second_rot = codecs.encode(first_rot, 'rot_13')
+print(first_rot, second_rot)
+```
+
+And here's the output:
+```
+ARIREQRPBQRZR NEVERDECODEME
+```
+Huh? Wha happun?
+Well, the English alphabet contains 26 letters. Rot13 works by substituting the letters of the plaintext with the letter 13 positions ahead of it. If you repeat the process, you've gone in a loop!
+
 ## u)
 ## Sources
 https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
