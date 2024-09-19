@@ -214,7 +214,7 @@ I got the app from its GitHub repo (https://github.com/MacPass/MacPass/releases/
 The first step was to create a new DB for storing passwords. I created a fake user and it gave me some pretty robust options for creating a password:
 <img width="964" alt="image" src="https://github.com/user-attachments/assets/3f99b9b0-95ba-4daa-aef9-d2859d7c4111">
 
-Some pretty nifty software! Access to it on my computer protected by a password.
+This is some pretty nifty software! Access to it on my computer is protected by a password.
 
 Password managers help against pwning attacks. Additionally, a lot of people use simple memorable passwords for websites which are easy to remember, but also easy to crack. No normal person will remember these ridiculously complex generated passwords by MacPass, so users don't end up reusing the same memorable passwords across multiple websites!
 
