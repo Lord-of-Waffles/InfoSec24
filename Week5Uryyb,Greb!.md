@@ -158,7 +158,30 @@ Downloaded gpg with Homebrew:
 brew install gnupg
 ```
 After the initial steps of creating a key I made sure it was working:
+
 <img width="464" alt="image" src="https://github.com/user-attachments/assets/41202ac5-e442-4a5b-83c8-e25a5e90bf49">
+
+I decided to use the same folder approach as the guide, and as I was listening to Trailer Park Boys whilst doing this assignment, named the folder Bubbles.
+
+Public key generated for Bubbles:
+
+<img width="440" alt="image" src="https://github.com/user-attachments/assets/b7316459-b8ed-4249-b396-ec97785df24b">
+
+Imported my public key to Bubbles:
+
+<img width="463" alt="image" src="https://github.com/user-attachments/assets/c48bd189-e600-4503-88e0-97887b3a4df7">
+
+My public key signed by, full trust:
+
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/ff38a95b-5536-4b57-8492-6df357ca1359">
+
+Next step was to repeat the process, but in reverse. Here I ran into the same issue I had with Linux:
+The command 
+```
+cp -v folder/folder.pub
+```
+Just did not work.
+
 
 
 
