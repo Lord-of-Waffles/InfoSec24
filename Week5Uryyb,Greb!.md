@@ -312,7 +312,39 @@ I find it interesting that a majority of the first half of the most frequent let
 
 
 ## p)
+
+Alrighty, let's get started.
+
+OpenSSH server is already installed:
+
+<img width="683" alt="image" src="https://github.com/user-attachments/assets/4645189d-d99b-4191-b45c-f1f4bd28e0d8">
+
+Here's confirmation it's running:
+
+<img width="803" alt="image" src="https://github.com/user-attachments/assets/0056abe7-0f3a-429c-8589-26ac7b691055">
+
+I also added a rule to allow it past the firewall:
+
+<img width="570" alt="image" src="https://github.com/user-attachments/assets/9e9127a9-974c-4d47-95b8-c0b6b65f6e8f">
+
+
 ## q)
+
+Cool, next step is to connect to this server. I'll connect to the server via my Mac.
+
+Made myself a keypair:
+
+<img width="517" alt="image" src="https://github.com/user-attachments/assets/96bc0db8-6ecc-49c8-a011-d99d51203d1f">
+
+Got the server's IP:
+
+<img width="1001" alt="image" src="https://github.com/user-attachments/assets/5861052e-9e42-47bf-901c-fcfe4d170a47">
+
+
+
+
+
+
 ## r)
 
 I chose to look at the certificate for my own website for this task. Now to whomever is reading this, please don't go look at it! (reverse psychology and all that, I know, but I'm being sincere)
