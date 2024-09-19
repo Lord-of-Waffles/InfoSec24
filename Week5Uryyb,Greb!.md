@@ -193,6 +193,20 @@ Password managers help against pwning attacks. Additionally, a lot of people use
 ## m)
 ## n)
 ## o)
+
+After some quick googling, I found a website that has the letter frequency for a bunch of languages! I'm studying French, so here's its letter frequency:
+
+e s a i t n r u l o d c m p é v q f b g h j à x è y ê z ç ô ù â û î œ w k ï ë ü æ ñ
+
+For comparison, here's (British) English:
+
+e t a o i n s r h l d c u m f p g w y b v k x j q z
+
+French has a much larger amount of written vowels due to different sounds being represented with accents, whereas in English the most common letter E is pronounced very differently depending on the etymological root of the word. These sounds are all however represented by the letter E unlike in French e, é, è, ê, ë.
+
+I find it interesting that a majority of the first half of the most frequent letters between these languages are the same! This is just a hunch, but due to English taking in a bunch of loanwords from Norman French etc. it's (in my opinion) likely that the lexical similarity contributes to the rough correllation.
+
+
 ## p)
 ## q)
 ## r)
@@ -203,3 +217,4 @@ Password managers help against pwning attacks. Additionally, a lot of people use
 https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
 Schneier 2015: Applied Cryptography: 1. Foundations
 https://github.com/MacPass/MacPass/releases/tag/0.8.1
+https://letterfrequency.org/letter-frequency-by-language/
