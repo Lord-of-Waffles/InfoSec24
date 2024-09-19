@@ -358,15 +358,15 @@ Comparing these 2 strings, I'm quite sure the last portion is "at http://(someth
 
 So ETAOIN wasn't it, but it helped a bit.
 This is just estimating at this point but in C I believe:
-M = A
-H = T
-B = S
-G = G
-O = O
-Y = R
-I = E
-K = Y
-W = O
+1. M = A
+2. H = T
+3. B = S
+4. G = G
+5. O = O
+6. Y = R
+7. I = E
+8. K = Y
+9. W = O
 
 Let's test it out!
 ```
