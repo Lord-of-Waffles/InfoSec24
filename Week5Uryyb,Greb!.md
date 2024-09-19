@@ -1,6 +1,6 @@
 # Week 5 Homework - Uryyb, Greb!
 ## By Benjamin Worton
-
+Fun fact: the title, when decrypted, is 'Hello, Tero!'
 # Table of Contents
 -  [x)](#x)
 -  [a)](#a) 
