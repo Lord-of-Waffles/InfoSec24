@@ -534,15 +534,65 @@ Huh? Wha happun?
 Well, the English alphabet contains 26 letters. Rot13 works by substituting the letters of the plaintext with the letter 13 positions ahead of it. If you repeat the process, you've gone in a loop!
 
 ## u)
+
+OK. FINALLY. Last assignment. Man, this has been a busy week. I chose to finish up last week's cryptopals assignment, so the third from set 1.
+Since I'm still not super familiar with all kinds of different libraries and stuff, I used AI to give me practical advice so I could focus on solving the assignment.
+On a side note, I read somewhere that what separates modern junior devs from senior devs is their willingness to utilise AI, not to just instantly resolve problems but to augment workflow.
+
+```
+s = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
+byte_s = binascii.unhexlify(s)
+```
+
+First up was to decode the string from hexadecimal
+The approach here was actually frequency analysis, so like the cipher task before this!
+
+Here's the code:
+
+```
+import binascii
+from collections import Counter
+
+s = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
+byte_s = binascii.unhexlify(s)
+
+def score(text):
+    frequency = Counter(text)
+    common = 'etaoinshrdlu'
+    return sum(frequency[char] for char in common)
+
+best_score = 0
+best_plaintext = ""
+best_key = ""
+
+for key in range(256):
+    decrypted = bytes([b ^ key for b in byte_s])
+    plaintext = decrypted.decode('latin1')
+    current_score = score(plaintext)
+
+    if current_score > best_score:
+        best_score = current_score
+        best_plaintext = plaintext
+        best_key = chr(key)
+
+print(f"Best Key: {best_key}")
+print(f"And the answer iiiiiiiiiis: {best_plaintext}")
+
+```
+I asked Tero how many of these I need to do each week, and luckily he said it was up to me, as it was voluntary. I think a whole set would be just way too much with how long this assignment ended up being!
+
+
 ## Sources
-https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+Age documentation: https://htmlpreview.github.io/?https://github.com/FiloSottile/age/blob/main/doc/age.1.html
+
+Karvinen 2023: https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+
+Karvinen 2024: https://terokarvinen.com/information-security/
+
+Letterfrequency 2024: https://letterfrequency.org/letter-frequency-by-language/
+
+Mstarke 2022: https://github.com/MacPass/MacPass/releases/tag/0.8.1
 
 Schneier 2015: Applied Cryptography: 1. Foundations
 
-https://github.com/MacPass/MacPass/releases/tag/0.8.1
-
-https://letterfrequency.org/letter-frequency-by-language/
-
-https://htmlpreview.github.io/?https://github.com/FiloSottile/age/blob/main/doc/age.1.html
-
-https://tech.serhatteker.com/post/2022-12/encrypt-and-decrypt-files-with-ssh-part-4/
+Serhat Teker 2022: https://tech.serhatteker.com/post/2022-12/encrypt-and-decrypt-files-with-ssh-part-4/
