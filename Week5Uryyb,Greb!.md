@@ -357,7 +357,7 @@ Let's see if it worked! Time to reconnect through putty using the key. Only thin
 
 And now I could connect to the server:
 
-![image](https://github.com/user-attachments/assets/1ff48ddb-bc22-49dc-9424-50917fa1dea9)
+![keyworked](https://github.com/user-attachments/assets/bc03b253-8fd6-45dd-86dd-fe467c4fe91b)
 
 Donezo! I originally tried creating the server on my vm in my mac, then connecting to it but it wasn't working. Luckily this did!
 
