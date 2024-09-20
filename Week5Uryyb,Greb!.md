@@ -339,7 +339,27 @@ ifconfig | grep inet
 
 I already had PuTTY, an SSH client for Windows installed, so I tested that I could connect:
 
+![wintomacssh](https://github.com/user-attachments/assets/0a276c70-dae2-4841-821b-89d92b18d181)
 
+Works! Next step was to automate login with public keys. Created one for windows:
+
+![image](https://github.com/user-attachments/assets/34d19139-4911-48bb-bcd3-9ab417849ebd)
+
+Then I had to copy it to the mac using putty:
+![image](https://github.com/user-attachments/assets/2aceb15c-dc68-4784-bbfd-ef15950838ce)
+
+All the commands I used:
+![commands](https://github.com/user-attachments/assets/36108ead-d12d-4751-a6ff-be1112d51372)
+
+Let's see if it worked! Time to reconnect through putty using the key. Only thing was putty wanted the private key in .ppk format, so I had to download puttygen to convert it:
+
+![image](https://github.com/user-attachments/assets/d72e0a89-bc45-4e5c-b3b6-815dbe013d47)
+
+And now I could connect to the server:
+
+![image](https://github.com/user-attachments/assets/1ff48ddb-bc22-49dc-9424-50917fa1dea9)
+
+Donezo! I originally tried creating the server on my vm in my mac, then connecting to it but it wasn't working. Luckily this did!
 
 
 
