@@ -330,15 +330,15 @@ I also added a rule to allow it past the firewall:
 
 ## q)
 
-Cool, next step is to connect to this server. I'll connect to the server via my Mac.
+I decided to create a new server on my mac, and connect to it from my windows laptop.
 
-Made myself a keypair:
+First I got my Mac's IP address.
+```
+ifconfig | grep inet
+```
 
-<img width="517" alt="image" src="https://github.com/user-attachments/assets/96bc0db8-6ecc-49c8-a011-d99d51203d1f">
+I already had PuTTY, an SSH client for Windows installed, so I tested that I could connect:
 
-Got the server's IP:
-
-<img width="1001" alt="image" src="https://github.com/user-attachments/assets/5861052e-9e42-47bf-901c-fcfe4d170a47">
 
 
 
