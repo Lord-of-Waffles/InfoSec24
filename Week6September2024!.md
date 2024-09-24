@@ -33,6 +33,25 @@ The latter part of the chapter provides methods of creating authentic digital si
 - public key cryptography + one-way hash functions
 
   ## a)
+Okie doke, first step is to install Hashcat. I'm following along with Tero's article: Cracking Passwords with Hashcat, you can find the commands used there.
+
+A quick updating of packages, and Hashcat is installed. For this assignment I'm using the rockyou.txt file.
+
+![image](https://github.com/user-attachments/assets/8b1481f4-2ff3-4861-b6b9-387ea7e16ea0)
+
+Over 14 million words! That's a long list.
+I give Hashcat a hash to crack:
+
+![image](https://github.com/user-attachments/assets/2c5cc9e9-ddde-480c-8c57-d383c7a063c3)
+
+I get a pretty long output: ![image](https://github.com/user-attachments/assets/02a316b6-078c-4bac-9640-151f6e19e6b5)
+
+This command stored the output of the cracking in the "solved" file:
+![image](https://github.com/user-attachments/assets/5d77f62d-ae78-4bad-9674-98a764c54c54)
+
+According to the article, you really should do this on the host, not a VM. That way you're able to utilise the GPU properly to speed this process up!
+
+
   ## b)
   ## m)
   ## n)
