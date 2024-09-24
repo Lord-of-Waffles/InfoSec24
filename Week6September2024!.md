@@ -49,7 +49,7 @@ I get a pretty long output: ![image](https://github.com/user-attachments/assets/
 This command stored the output of the cracking in the "solved" file:
 ![image](https://github.com/user-attachments/assets/5d77f62d-ae78-4bad-9674-98a764c54c54)
 
-According to the article, you really should do this on the host, not a VM. That way you're able to utilise the GPU properly to speed this process up!
+According to the article, you really should do this on the host, not a VM. That way you're able to utilise the GPU properly to speed this process up...
 
   ## b)
 
