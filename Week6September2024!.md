@@ -51,8 +51,63 @@ This command stored the output of the cracking in the "solved" file:
 
 According to the article, you really should do this on the host, not a VM. That way you're able to utilise the GPU properly to speed this process up!
 
-
   ## b)
+
+So that's what I did! First step is again to install Hashcat, but this time on my host machine which is running Windows.
+I chose downloaded the binaries version from their website:
+
+![image](https://github.com/user-attachments/assets/e20a0412-2d2e-4e32-8dd3-dee8a5c1b3f3)
+
+Then the CUDA Toolkit from Nvidia:
+
+![image](https://github.com/user-attachments/assets/7014c95b-b473-4f50-8fb7-7b4f5d7c6db2)
+
+After clicking through the CUDA installer, waiting for it to install for what felt like half an hour, and extracting the hashcat zip file it was time to test if it had worked:
+
+![image](https://github.com/user-attachments/assets/ed1faded-963d-4678-af91-6692b3a0055b)
+
+All good, ready to get going.
+
+For this assignment I need to crack the hash
+```
+d595b2086532422bbe654bc07ea030df
+```
+Huh, why isn't hashid working? Because it's its own software, right. I need python to install it too. Time to install those as well:
+
+![image](https://github.com/user-attachments/assets/09f936d8-bb2c-4138-bbe5-cefbb41fbab2)
+
+Windows was trying to run python from the Microsoft store, so had to disable that.
+Had to manually add python to my path as well. Thanks Microsoft.
+
+![image](https://github.com/user-attachments/assets/016545ac-8673-4639-a2fa-d9dd501507a6)
+
+I also installed the rockyou.txt file using this command:
+
+```
+curl -L -o rockyou.txt.tar.gz https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
+```
+I had to move it to the same directory as hashcat.exe, but I finally got it to work.
+
+Finally.
+
+
+OK! Time to actually do the assignment.
+Here's the hashid result:
+
+![image](https://github.com/user-attachments/assets/78f50d28-5ffd-4ed4-a6a4-06cd4ddcce66)
+
+First I thought I'd try MD5, since this hash is 32 characters long.
+
+I ran this command:
+```
+hashcat -m 0 -a 0 d595b2086532422bbe654bc07ea030df rockyou.txt
+```
+
+Cracked. Here's the result:
+![image](https://github.com/user-attachments/assets/2a6fee13-332e-4fed-bac7-5048f4ef42c7)
+
+That took a while, but I got there in the end!
+
   ## m)
   ## n)
   ## o)
