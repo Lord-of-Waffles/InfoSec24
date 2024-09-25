@@ -127,7 +127,7 @@ Donezo! The result was a **lot** of different scripts, here are just the first f
 
 ![image](https://github.com/user-attachments/assets/9b1856f1-d139-4ff3-a8c8-1a0cc3666f6d)
 
-I rant this really long command Tero had written on his article and got a pretty long output. I was getting some errors at the bottom, but the article said that if the output included a version number, it was working. Hooray?
+I ran this really long command Tero had written on his article and got a pretty long output. I was getting some errors at the bottom, but the article said that if the output included a version number, it was working. Hooray?
 
 ![image](https://github.com/user-attachments/assets/7c950de8-d4d3-425e-8c6b-ace9a13b692c)
 
@@ -144,7 +144,7 @@ Then I use John the Ripper to perform a dictionary attack against it:
 
 ![image](https://github.com/user-attachments/assets/384ec0c4-925f-4754-a561-d8f6259e04c3)
 
-This gave us the password: buttefly. Then I try to unzip it again with the new password and read the file inside:
+This gave us the password: butterfly. Then I try to unzip it again with the new password and read the file inside:
 
 ![image](https://github.com/user-attachments/assets/0ebd9d84-2756-47c4-8cf9-46f2042603ab)
 
@@ -152,5 +152,10 @@ This gave us the password: buttefly. Then I try to unzip it again with the new p
 This was pretty fun :)
 
   ## n)
+
+In line with last week's homework, I decided to pester my friends once again, and asked my friend to create a password-protected zip file for me to crack!
   ## o)
+
+My friends cannot escape my pestering, so I had one create a different file that was password protected for me to crack.
+
   ## p)
