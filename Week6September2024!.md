@@ -109,6 +109,48 @@ Cracked. Here's the result:
 That took a while, but I got there in the end!
 
   ## m)
+Another follow-along assignment, this time I'm following Kari's article: Crack File Password With John
+
+This article teaches how to crack a file's password using a dictionary attack. Back to the Linux VM!
+
+The first step was to make sure I had all the necessary software like Git installed, then download John the Ripper:
+
+![image](https://github.com/user-attachments/assets/dde41a23-2196-4632-b66b-6cb06bec4a27)
+
+And then compile it using ./configure and subsequently compile it with make -s clean && make -sj4:
+
+![image](https://github.com/user-attachments/assets/a3d8c52b-0c3d-43f2-9a05-48cf5d1f1565)
+
+![image](https://github.com/user-attachments/assets/74545008-41cc-4284-ae99-c1f3408981b8)
+
+Donezo! The result was a **lot** of different scripts, here are just the first few:
+
+![image](https://github.com/user-attachments/assets/9b1856f1-d139-4ff3-a8c8-1a0cc3666f6d)
+
+I rant this really long command Tero had written on his article and got a pretty long output. I was getting some errors at the bottom, but the article said that if the output included a version number, it was working. Hooray?
+
+![image](https://github.com/user-attachments/assets/7c950de8-d4d3-425e-8c6b-ace9a13b692c)
+
+Next up was to download a sample .zip file to try and open it:
+
+![image](https://github.com/user-attachments/assets/31579619-cb7e-4b7e-b42b-35b405aef68b)
+
+
+No dice, needs a password. To get access I need to crack it. First I extract the hash:
+
+![image](https://github.com/user-attachments/assets/d3c4b1fc-825a-42f9-837a-ed259c571fac)
+
+Then I use John the Ripper to perform a dictionary attack against it:
+
+![image](https://github.com/user-attachments/assets/384ec0c4-925f-4754-a561-d8f6259e04c3)
+
+This gave us the password: buttefly. Then I try to unzip it again with the new password and read the file inside:
+
+![image](https://github.com/user-attachments/assets/0ebd9d84-2756-47c4-8cf9-46f2042603ab)
+
+
+This was pretty fun :)
+
   ## n)
   ## o)
   ## p)
