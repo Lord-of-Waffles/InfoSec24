@@ -156,7 +156,9 @@ This was pretty fun :)
 
   ## n)
 
-So I've asked my friend to password protect a .zip file for me to crack, but it didn't work. I tried to make one myself, but it didn't work. I tried to cracking both of them on linux and my host, installed Jack the Ripper and Hashcat on both, but no dice. Something about the .zip passwords just hasn't worked. We tried setting passwords in 7zip and Windows itself, but nothing worked! Really unfortunate. It seems like it just encrypts the folder contents, not the folder itself.
+So I've asked my friend to password protect a .zip file for me to crack, but it didn't work. I tried to make one myself, but it didn't work. I tried to cracking both of them on linux and my host, installed Jack the Ripper and Hashcat on both, but no dice.
+
+Something about the .zip passwords just hasn't worked. We tried setting passwords in 7zip and Windows itself, but nothing worked! Really unfortunate. It seems like it just encrypts the folder contents, not the folder itself.
 
 ![image](https://github.com/user-attachments/assets/3bc957d6-a1e0-4690-840a-170b36a42a8d)
 
@@ -203,3 +205,78 @@ Final progress status:
 ![image](https://github.com/user-attachments/assets/6015848e-2468-4d5d-91a3-587ef1faaf41)
 
   ## p)
+
+This week's homework has been a bit weird. I had already summarised the first part, and 2 of the password cracking voluntary assignments didn't really work out. Luckily this one is a bit simpler: Summarising a presentation from Disobey 2019 by Alexander Forbes, a IBM security-team ethical hacker.
+
+
+### The first section is a brief history on ATMs:
+
+- The market used to be more diverese with a lot of different manufacturers, nowadays they've consolidated into only about 4 separate companies.
+- They use heavily standardised software
+
+### Next is what they're made up of:
+
+- Most modern ATMs are running 32-bit Windows 7/8, sometimes even Vista
+- Peripherals mostly USB connected
+
+### Standardisation:
+
+- Usually a pretty stripped down OS with some whitelisting services
+- Custom BIOS occurs sometimes, but not too common
+
+### on-ATM Attack Surfaces (more back-end type protections):
+
+- In event of back-end systems being compromised by attack, software has integrity checks to prevent remote exploit attacks
+- Defenses for physical attacks include cameras, police, withdrawal limits.
+- Mirrors in ATM corners to help customer see if they're being spied on
+
+### ATM Attack Surfaces
+
+- Needs to be well placed in line of sight to cameras and public places
+- Alexander says one of the first questions his team asks when assessing an ATM is "what is the physical security like?"
+- Most successful attacks are brute force attacks, heavy impacts, explosives etc.
+- Networking security typically not as strong as physical due to perceived concept of security in ATMs being sufficiently removed from the internet, apparently the reality is quite the opposite.
+- Gaining root access usually means game over for the bank
+- A more modern type of attack is connecting customer hardware to monitor the system, swiping credit card numbers to be sold later
+
+### Flaws in ATM defenses (physical):
+
+- Heavy, but moveable with enough strength
+- Built in public places, but not always monitored at night
+- Frame is usually only thin metal with a plastic facade
+- Locks to access internal components surprisingly pickable
+- Network hardware sometimes able to be accessed from the exterior
+
+### Flaws in ATM defense (networks):
+- Impromper authentication in back-end and unsecure encryption surprisingly common
+- Improper usage of firewalls
+- Monitoring isn't always on point, short outages not investigated and logging data not always sent unless back-end is attacked
+
+### Flaws in ATM defense (embedded systems):
+- Many ATMs not setup to block booting from external media
+- Drives hardly ever encrypted
+- Organisations quite risk-averse. "If it ain't broke don't fix it"
+- Misconfig in whitelisting
+
+### Flaws in ATM defense (hardware):
+- Authentication between different devices not always required between cash-dispenser and the software
+- Not used at all between other devices
+- USB connections prone to attacks
+- Internals are designed to be easy to maintain, but tradeoff is that it's also easy to modify with lots of space
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
