@@ -297,7 +297,7 @@ Karvinen 2022: https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 
 Schneier 2015: Applied Cryptography: Chapter 2.3 & 2.4
 
-
+Worton 2024: https://github.com/Lord-of-Waffles/InfoSec24/blob/main/Week3HackToLearnHacking.md Chapter x)
 
 
 
