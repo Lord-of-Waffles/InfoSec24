@@ -206,32 +206,27 @@ Final progress status:
 
   ## p)
 
-This week's homework has been a bit weird. I had already summarised the first part, and 2 of the password cracking voluntary assignments didn't really work out. Luckily this one is a bit simpler: Summarising a presentation from Disobey 2019 by Alexander Forbes, a IBM security-team ethical hacker.
+This week's homework has been a bit weird. I had already summarised the first part, and 2 of the password cracking voluntary assignments didn't really work out. Luckily this one is a bit simpler: Summarising a presentation from Disobey 2019 by Alexander Forbes, a IBM security-team ethical hacker. He stresses that penetration testing ATMs without the owner's permission is an easy way to get into trouble. This summary is written only for educational purposes, don't go breaking the law.
 
 
 ### The first section is a brief history on ATMs:
-
 - The market used to be more diverese with a lot of different manufacturers, nowadays they've consolidated into only about 4 separate companies.
 - They use heavily standardised software
 
 ### Next is what they're made up of:
-
 - Most modern ATMs are running 32-bit Windows 7/8, sometimes even Vista
 - Peripherals mostly USB connected
 
 ### Standardisation:
-
 - Usually a pretty stripped down OS with some whitelisting services
 - Custom BIOS occurs sometimes, but not too common
 
 ### on-ATM Attack Surfaces (more back-end type protections):
-
 - In event of back-end systems being compromised by attack, software has integrity checks to prevent remote exploit attacks
 - Defenses for physical attacks include cameras, police, withdrawal limits.
 - Mirrors in ATM corners to help customer see if they're being spied on
 
 ### ATM Attack Surfaces
-
 - Needs to be well placed in line of sight to cameras and public places
 - Alexander says one of the first questions his team asks when assessing an ATM is "what is the physical security like?"
 - Most successful attacks are brute force attacks, heavy impacts, explosives etc.
@@ -240,7 +235,6 @@ This week's homework has been a bit weird. I had already summarised the first pa
 - A more modern type of attack is connecting customer hardware to monitor the system, swiping credit card numbers to be sold later
 
 ### Flaws in ATM defenses (physical):
-
 - Heavy, but moveable with enough strength
 - Built in public places, but not always monitored at night
 - Frame is usually only thin metal with a plastic facade
@@ -265,13 +259,43 @@ This week's homework has been a bit weird. I had already summarised the first pa
 - Internals are designed to be easy to maintain, but tradeoff is that it's also easy to modify with lots of space
 
 
+### Successful modern attacks:
+- A majority are physical
+- Most sophisticated attacks target the embedded systems or hardware
+- Groups of malware that make the ATM spit out cash
+- "Black box" attack by connecting malicious hardware with USB
+
+### Attackers have to realise:
+- When the machines are refilled, so as to not attack an empty target
+- Not to empty out an entire machine, so as to alert suspicion
+- CCTV will catch them
+- Audio sensors will catch them
+- Due to the nature of the crime, authorities are very invested in arresting the attacker, as are banks and insurers
+- Physical money, at least a big amount of it, is heavy
+- Laundering lots of money isn't so easy
+- The rate the machine can spit out cash: best case 14-16 **minutes**
+
+### Defenders have to realise:
+- Listen to experts
+- Use reliable vendors
+- Ensure good physical installation of the machine (and whole disk encryption)
+- Regular software updates, proper verification methods, very strict whitelisting
 
 
+All in all, a weird week of homework with a bunch of problems. Learned a lot though!
 
 
+# Sources
 
+Disobey 2024: Jackpotting ATM's - Its easier than you might think - Alexander Forbes (https://www.youtube.com/watch?v=ThPJrPf7O2s&t=1s&ab_channel=Disobey)
 
+Karvinen 2024: https://terokarvinen.com/information-security/#h6-september2024
 
+Karvinen 2023: https://terokarvinen.com/2023/crack-file-password-with-john/
+
+Karvinen 2022: https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+
+Schneier 2015: Applied Cryptography: Chapter 2.3 & 2.4
 
 
 
