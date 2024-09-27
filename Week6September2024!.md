@@ -153,21 +153,16 @@ This was pretty fun :)
 
   ## n)
 
-In line with last week's homework, I decided to pester my friends once again, and asked my friend to create a password-protected zip file for me to crack!
+So I've asked my friend to password protect a .zip file for me to crack, but it didn't work. I tried to make one myself, but it didn't work. I tried to cracking both of them on linux and my host, installed Jack the Ripper and Hashcat on both, but no dice. Something about the .zip passwords just hasn't worked. We tried setting passwords in 7zip and Windows itself, but nothing worked! Really unfortunate. It seems like it just encrypts the folder contents, not the folder itself.
 
-I moved the folder from my host machine to my virtual machine via a shared folder.
-
-![image](https://github.com/user-attachments/assets/082d2758-d087-4dbc-940b-1ab9a45458ca)
-
-second secret folder.zip is the file I'm cracking here, secret folder is a .7z for the next section :)
-
-(I had to add underscores so I could access the files in the terminal)
+![image](https://github.com/user-attachments/assets/3bc957d6-a1e0-4690-840a-170b36a42a8d)
 
 
 
 
   ## o)
 
+(I did this before part n))
 My friends cannot escape my pestering, so I had one create a different file that was password protected for me to crack.
 
 This folder is .7z, so I needed some specific software to extract it:
@@ -198,7 +193,10 @@ At this point it was taking too long to crack, so it was time for a different at
 
 ![image](https://github.com/user-attachments/assets/64feda53-425c-47a8-b4d3-93b2738018ab)
 
-This was a **LOT** faster.
+This was a **LOT** faster, but it was still taking some time. Turns out my friend had come up with a 17 character password, containing 2 words and 2 digits. Holy moly. Hashcat might've been able to crack this given an entire day, but unfortunately that wasn't an option for me. This just goes to show how effective a good password is!
 
+Final progress status:
+
+![image](https://github.com/user-attachments/assets/6015848e-2468-4d5d-91a3-587ef1faaf41)
 
   ## p)
