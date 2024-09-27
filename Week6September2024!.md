@@ -156,7 +156,7 @@ This was pretty fun :)
 
   ## n)
 
-So I've asked my friend to password protect a .zip file for me to crack, but it didn't work. I tried to make one myself, but it didn't work. I tried to cracking both of them on linux and my host, installed Jack the Ripper and Hashcat on both, but no dice.
+So I've asked my friend to password protect a .zip file for me to crack, but it didn't work. I tried to make one myself, but it didn't work. I tried to crack both of them on linux and my host, installed Jack the Ripper and Hashcat on both, but no dice.
 
 Something about the .zip passwords just hasn't worked. We tried setting passwords in 7zip and Windows itself, but nothing worked! Really unfortunate. It seems like it just encrypts the folder contents, not the folder itself.
 
