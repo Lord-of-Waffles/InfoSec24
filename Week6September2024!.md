@@ -36,7 +36,7 @@ The latter part of the chapter provides methods of creating authentic digital si
 - public key cryptography + one-way hash functions
 
   ## a)
-Okie doke, first step is to install Hashcat. I'm following along with Tero's article: Cracking Passwords with Hashcat, you can find the commands used there.
+Okie doke, first step is to install Hashcat. I'm following along with Tero's article: Cracking Passwords with Hashcat, you can find the commands used there. As with other weeks' assignments, I don't want to just copy his article word-for-word with all the commands, that would just be copying.
 
 A quick updating of packages, and Hashcat is installed. For this assignment I'm using the rockyou.txt file.
 
