@@ -194,7 +194,8 @@ Trying all kinds of passwords:
 
 ![image](https://github.com/user-attachments/assets/1636d2d1-65be-40ea-9bcb-d52ed9af0d00)
 
-At this point it was taking too long to crack, so it was time for a different attack. I closed the VM and booted up hashcat on my host machine to start cracking:
+At this point it was taking too long to crack. The attack had been running for 45 minutes, and was only slowing down more as time went on. Some rough math showed that it would take about 10 000 hours. No thanks.
+It was time for a different attack. I closed the VM and booted up hashcat on my host machine to start cracking:
 
 ![image](https://github.com/user-attachments/assets/64feda53-425c-47a8-b4d3-93b2738018ab)
 
