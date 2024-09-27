@@ -57,7 +57,7 @@ According to the article, you really should do this on the host, not a VM. That 
   ## b)
 
 So that's what I did! First step is again to install Hashcat, but this time on my host machine which is running Windows.
-I chose downloaded the binaries version from their website:
+I downloaded the binaries version from their website:
 
 ![image](https://github.com/user-attachments/assets/e20a0412-2d2e-4e32-8dd3-dee8a5c1b3f3)
 
