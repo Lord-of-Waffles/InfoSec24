@@ -154,8 +154,46 @@ This was pretty fun :)
   ## n)
 
 In line with last week's homework, I decided to pester my friends once again, and asked my friend to create a password-protected zip file for me to crack!
+
+I moved the folder from my host machine to my virtual machine via a shared folder.
+
+![image](https://github.com/user-attachments/assets/082d2758-d087-4dbc-940b-1ab9a45458ca)
+
+second secret folder.zip is the file I'm cracking here, secret folder is a .7z for the next section :)
+
+(I had to add underscores so I could access the files in the terminal)
+
+
+
+
   ## o)
 
 My friends cannot escape my pestering, so I had one create a different file that was password protected for me to crack.
+
+This folder is .7z, so I needed some specific software to extract it:
+
+![image](https://github.com/user-attachments/assets/f36f9f3b-46d2-4566-9002-0dd324a2006c)
+
+![image](https://github.com/user-attachments/assets/004b93f9-1d0b-430d-b58b-5838216e0eed)
+
+Oh dear, I don't have the password. Let's fix that. I had to install a module for the 7z script to work, and got the output to hash.txt:
+
+![image](https://github.com/user-attachments/assets/a563b06b-36ad-4396-aa50-8807e08fc476)
+
+Here's the hash in case you're curious:
+
+![image](https://github.com/user-attachments/assets/24235325-492f-42e3-b549-56d770ddfb39)
+
+Next I ran a dictionary attack against the hash.
+
+Progress update mid process:
+
+![image](https://github.com/user-attachments/assets/09fb2e8d-6dce-4a05-a9c4-7df928334c0a)
+
+Trying all kinds of passwords:
+
+![image](https://github.com/user-attachments/assets/1636d2d1-65be-40ea-9bcb-d52ed9af0d00)
+
+
 
   ## p)
