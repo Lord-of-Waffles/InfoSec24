@@ -180,3 +180,10 @@ I took the hash of the top account and put looked at the activity on a website c
 
 
 ## Sources
+I2P 2024: https://geti2p.net/en/download/debian
+
+Karvinen 2024: https://terokarvinen.com/information-security/#h7-going-dark
+
+Shaves & Bair 2016: https://learning.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0010
+
+Quintin 2014: https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor
