@@ -29,7 +29,7 @@ The article, written by Cooper Quintin, details 7 facts about Tor (and subsequen
 
 ### Hiding Behind the Keyboard: The Tor Browser
 
-This summary will be broken down into the chapters listed.
+This summary is broken down into the chapters listed on the assignment page
 
 #### Introduction
 
@@ -43,8 +43,22 @@ It was initially developed by the US government, but today is open-source and us
 
 #### How the Onion Router Works
 
+Tor works by sending the user's encrypted traffic through a network of relays (kind of like routing in clearnet), which are run by individuals voluntarily. When it passes through a relay, the data is encrypted moreand more. When the traffic reaches the final relay, or "exit", it connects the user to their desired target via an unencrypted connection. Each relay does not know the path the data took to reach it other than the previous relay, making tracking difficult.
+
+This chapter includes a figure showcasing countries by size, where size is daily Tor users per 100 000 internet users. Unsurprisingly countries with bigger populations are represented, but I was surprised to see countries like Italy using Tor so heavily!
+
+The Tor browser is simply a modified version of the Firefox browser, making it easy to use for most users. As stated earlier, as it offers anonymity it is used by criminals to communicate anonymously.
 
 #### Tracking Criminals using Tor
+
+However, it is possible to find out people's identities. The FBI were able to take down a service hosting sexual content of minors by using an exploit in the Firefox browser, which the Tor brwoser was based on.
+Additionally, as with any system, one of the major security flaws will always be the user. Consenting to sharing geolocation data, installing plugins that track your IP and scripts running on websites can compromise your indentity.
+
+Other methods for indentifying users include:
+- Controlling as many entry & exit nodes as possible in an attempt to correllate traffic
+- The Man-in-the-middle attack in attempt to discern the user's IP
+
+These methods require time, and time is money, so not every suspect is subjected to this level of investigation.
 
 
 ## a)
