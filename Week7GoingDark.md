@@ -157,12 +157,13 @@ I then setup my browser to use the I2P proxy.
 
 <img width="1910" alt="image" src="https://github.com/user-attachments/assets/da789475-1bdb-4c03-9ffc-2c619faea2e3">
 
+Here are some I2P websites:
 
+<img width="1559" alt="image" src="https://github.com/user-attachments/assets/8d138441-ec3b-4a80-8afc-a21b8627a85e">
 
+<img width="1397" alt="image" src="https://github.com/user-attachments/assets/1b0ca200-ccb5-4d9e-a733-48465c3aed6a">
 
-
-I
-
+Both seem to be forums, and I found both of these on the I2P home page.
 
 
 ## d)
