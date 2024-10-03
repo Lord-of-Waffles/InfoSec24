@@ -166,4 +166,17 @@ Both seem to be forums, and I found both of these on the I2P home page.
 
 
 ## d)
+
+Since I saw that Venus Marketplace accepts bitcoin, I thought I'd check that. No dice, no address that I could find
+So I thought that I'd just look up "bitcoin addresses" and this site called blockchair:
+
+<img width="1397" alt="image" src="https://github.com/user-attachments/assets/68d51e2c-fda3-4996-8229-1563aa1ccb72">
+
+I took the hash of the top account and put looked at the activity on a website called bitcoinexplorer, and the latest transaction was made 2 hours ago!
+
+<img width="1287" alt="image" src="https://github.com/user-attachments/assets/86cb88f5-5b77-48c9-aaf0-f9cd62332265">
+
+
+
+
 ## Sources
