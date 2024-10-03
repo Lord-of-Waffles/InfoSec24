@@ -94,7 +94,7 @@ Kinda funny that this seems like a recruiting website :)
 
 ## c)
 
-Okie doke! That was interesting, time to try a different browser. This time I decided to install through the terminal following I2P's instructions:
+Okie doke! That was interesting, time to try a different browser. This time I decided to install I2p through the terminal following I2P's instructions:
 
 First I ran these commands
 
