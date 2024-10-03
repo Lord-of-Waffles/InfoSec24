@@ -62,7 +62,36 @@ These methods require time, and time is money, so not every suspect is subjected
 
 
 ## a)
+
+I installed Tor in class, here's roughly how the process went:
+
+- I booted up my virtual machine and opened up the Tor project's website
+- I downloaded the compressed folder containing the browser and dependencies. Alternatively a more secure way of doing this would be using a package manager through a terminal.
+- I decompressed the folder
+
+Then I simply navigated to the folder through terminal and launched the browser:
+<img width="813" alt="image" src="https://github.com/user-attachments/assets/8f8ed1b9-c80b-40b5-b1c5-99dbdd2895ce">
+
+Then you're ready to go!
+
 ## b)
+
+Search Engine:
+<img width="1392" alt="image" src="https://github.com/user-attachments/assets/b3bf23e8-f6c3-4aec-923d-c6b0fd6c3b8f">
+This one is Ahmia, one that Tero showed us in class.
+
+Marketplace:
+<img width="1293" alt="image" src="https://github.com/user-attachments/assets/af7681fd-1393-4b78-a14e-6a4432287906">
+Venus Marketplace, from a glimpse they're selling illegal drugs, stolen credit cards & devices and firearms.
+
+Forum:
+<img width="1397" alt="image" src="https://github.com/user-attachments/assets/3ff2e54a-95c1-4fe6-871d-c462a79b7f90">
+DarkNetArmy. Forum posts included people selling PayPayl accounts, hacking tools, accounts for online video games etc.
+
+CIA's website:
+<img width="1368" alt="image" src="https://github.com/user-attachments/assets/42c50c5a-d697-4b60-8c92-659fda85ed81">
+Kinda funny that this seems like a recruiting website :)
+
 ## c)
 ## d)
 ## Sources
