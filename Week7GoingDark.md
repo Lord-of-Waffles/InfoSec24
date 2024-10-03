@@ -134,9 +134,34 @@ sudo apt-get update
 sudo apt-get install i2p i2p-keyring
 ```
 
-And I2P is installed!
+And I2P is installed! Now all I need to is to run the command
+
+```
+i2prouter start
+```
+
+It's important not to run this with sudo!
+
+After this there's a short setup:
+
+<img width="1159" alt="image" src="https://github.com/user-attachments/assets/b8d24464-a980-456d-94ac-b9d37acb3932">
+
+Donezo:
+
+<img width="1205" alt="image" src="https://github.com/user-attachments/assets/74668c99-cdaf-4af5-a41e-ec719276a206">
+
+I then setup my browser to use the I2P proxy.
+<img width="629" alt="image" src="https://github.com/user-attachments/assets/0ca474b3-8549-429d-8c9e-8509d0b7b7a4">
+
+<img width="1908" alt="image" src="https://github.com/user-attachments/assets/42919340-b7f0-49f7-bffd-f1aa225fc6f4">
+
+<img width="1910" alt="image" src="https://github.com/user-attachments/assets/da789475-1bdb-4c03-9ffc-2c619faea2e3">
 
 
+
+
+
+I
 
 
 
