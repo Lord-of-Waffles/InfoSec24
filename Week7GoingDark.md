@@ -93,5 +93,52 @@ CIA's website:
 Kinda funny that this seems like a recruiting website :)
 
 ## c)
+
+Okie doke! That was interesting, time to try a different browser. This time I decided to install through the terminal following I2P's instructions:
+
+First I ran these commands
+
+```
+sudo apt-get update
+sudo apt-get install apt-transport-https lsb-release curl
+```
+
+```
+echo "deb [signed-by=/usr/share/keyrings/i2p-archive-keyring.gpg] https://deb.i2p.net/ $(lsb_release -sc) main" \
+  | sudo tee /etc/apt/sources.list.d/i2p.list
+```
+
+```
+curl -o i2p-archive-keyring.gpg https://geti2p.net/_static/i2p-archive-keyring.gpg
+```
+
+```
+gpg --keyid-format long --import --import-options show-only --with-fingerprint i2p-archive-keyring.gpg
+```
+
+After this command the output should be:
+
+  7840 E761 0F28 B904 7535  49D7 67EC E560 5BCF 1346
+
+Then:
+
+```
+sudo cp i2p-archive-keyring.gpg /usr/share/keyrings
+```
+
+```
+sudo apt-get update
+```
+
+```
+sudo apt-get install i2p i2p-keyring
+```
+
+And I2P is installed!
+
+
+
+
+
 ## d)
 ## Sources
