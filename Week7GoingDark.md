@@ -151,7 +151,6 @@ Donezo:
 <img width="1205" alt="image" src="https://github.com/user-attachments/assets/74668c99-cdaf-4af5-a41e-ec719276a206">
 
 I then setup my browser to use the I2P proxy.
-<img width="629" alt="image" src="https://github.com/user-attachments/assets/0ca474b3-8549-429d-8c9e-8509d0b7b7a4">
 
 <img width="1908" alt="image" src="https://github.com/user-attachments/assets/42919340-b7f0-49f7-bffd-f1aa225fc6f4">
 
